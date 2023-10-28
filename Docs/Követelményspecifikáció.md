@@ -66,3 +66,33 @@ féle weboldal létezik, ahol ezt megtehetik, viszont az ilyen oldalakon által�
 tárgyakkal kereskednek. Ezzel ellentétben a mi webshopunk csakis kizárólag középkori termékekkel foglalkozik. Megkönnyítve a vásárlóknak
 és értékesítőknek a dolgát azzal, hogy ha középkori tematikájú terméket szeretnének vásárolni illetve eladni, akkor ezen a helyen 
 könnyedén megtehetik, mivel a webshopon a középkori tárgyakon kívül más nem található meg.
+
+## 5. Igényelt üzleti folyamatok modellje
+
+Egy olyan webshop létrehozása, amely alkalmas arra, hogy a vásárlók, illetve az eladók megvásárolják, illetve eladják termékeiket. 
+Középkori stílusban, amely megidézi a középkor hangulatát, atmoszféráját. A webshop kinézete középkori stílusú, ezzel hűen
+tükrözve az akkori időket, az érdeklődő azonnal elvarázsolódik. Működése hasonló egy online piachoz. Megtalálható a kínálatban több
+termék, legyenek ezek felhasználók által készített, illetve már nem használt termékek, melyekre egy gyüjtőnek szüksége lehet, viszont az
+eladónak már nem. A webshopban szereplő termékeket rendszeresen frissítik, így mindig új és egyedi darabok várnak a vásárlókra. Ezáltal a
+vásárlók mindig találhatnak valami frisset és érdekeset a középkori stílus világában. Az egyediség és a változatosság lehetővé teszi, hogy
+mindenki megtalálja a számára tökéletes középkori stílusú tárgyat, legyen az ruha, eszköz, kiegészítő vagy lakberendezési elem.
+
+A webshop ugyanarra épül mint a már jól megismert online webáruházak, egy olyan weboldal ahol vásárolni és eladni is tud a felhasználó.
+A weboldal tulajdonságai tartalmazzák:
+
+-   Regiszráció
+-   Bejelentkezés
+-   Termékek eladása
+-   Termékek megvásárlása
+-   Licitálási lehetőség
+-   Beszélgetés az eladóval/vásárlóval
+-   Termékekre való szűrés
+-   Képek és termékleírások
+-   Visszajelzések és értékelések
+-   Ügyfélszolgálat és rendeléskezelés
+-   Kuponok és Kedvezmények
+-   Készpénz és online fizetési lehetőségek
+-   Használati útmutató
+-   Beszédfelismerés
+-   Gyors és hatékony keresőfunkció
+-   Rendeléskövetés
