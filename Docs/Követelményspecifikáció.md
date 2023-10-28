@@ -119,3 +119,15 @@ A weboldal tulajdonságai tartalmazzák:
 | K16  | Ügyintézés | Ügyfélszolgálat | Probléma esetény segítséget nyújt egy munkatársunk. |
 | K17  | Ügyintézés | Rendeléskövetés | Egy adott termék megvásárlása után való állapotkövetés. |
 | K18  | Használati útmutató | GYIK | Gyakori kérdések a webshop működésével kapcsolatban. |
+
+## 7. Fogalomtár
+
+-   **Esztétika:** Gyönyörködés érzése, a személy annak a dolognak az alakját, szerkezetét nagyon szépnek tartja.
+-   **Fake:** Hamis, nem eredeti.
+-   **Dizájn:** Egy ipari termék külsejének a tervezete.
+-   **Atmoszféra:** Szellemi légkör, (köz)hangulat.
+-   **Lojális:** Hű, megbízható. 
+-   **Szegmens:** Kisebb egység, rész 
+-   **Interaktív:** Részvételt megkövetelő 
+-   **Platform:** Felület. 
+-   **Promóció:**  Tevékenység a kereslet élénkítéséhez és az eladások növelése érdekében.
