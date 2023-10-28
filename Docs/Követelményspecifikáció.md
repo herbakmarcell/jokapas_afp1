@@ -50,3 +50,19 @@ frissítéseket kaphatnak az új termékekről, promóciókról és eseményekr�
 bocsájtani, a saját termékeik felett teljes körű kezelését kapnak, beleértve a készletnyilvántartást, az árak frissítését és a rendelések
 kezelését. A webshopon belül a vásárlók és az eladók értékeléseket és visszajelzéseket is hagyhatnak egymásnak. Ezen túlmenően, a webshop
 lehetőséget biztosít az eladók számára, hogy a saját profiljukon bemutassák magukat és a saját készítésű, középkori témájú termékeiket.
+
+## 4. Jelenlegi üzleti folyamatok modellje
+
+A középkori stílusú webshopok manapság egy különleges és egyedi piaci szegmenst képviselnek az online téren. Ezek a webshopok általában
+olyan termékeket kínálnak, amelyek a középkori idők hangulatát, stílusát és atmoszféráját idézi meg. A középkori stílusú webshopok olyan
+célcsoportot céloznak meg, akik érdeklődnek a történelem és a középkor iránt, valamint azokat akik szívesen veszik körül magukat olyan
+tárgyakkal, amelyek ebből az időszakból valók. Ezek a webshopok gyakran kínálnak egyedi, kézzel készített termékeket, amelyek nagyban 
+különböznek a tömeggyártott termékektől. Fontos azonban megjegyezni, hogy a középkori stílusú webshopok általában nem próbálják 
+visszaadni a középkor valóságát, hitelességét, hanem inkább egy romantikus vagy fantáziavilágot építenek fel, amely a középkor hangulatát 
+próbálja átadni az érdeklődőnek. Összességében elmondható az, hogy a középkori stílusú webshopoknak ma is van helye a piacokon, és azok, 
+akik érdeklődnek ezen korszak iránt, számos érdekes és egyedi terméket találhatnak ezeken az oldalakon. Hozzávetőlegesen azok, akik már
+kiábrándultak ebből a világból, vagy csak szimplán el szeretnék adni tárgyaikat némi pénz fejében, szintén megtehetik. Manapság erre több
+féle weboldal létezik, ahol ezt megtehetik, viszont az ilyen oldalakon általában "mindenes" a kínálat, azaz nem csupán középkori
+tárgyakkal kereskednek. Ezzel ellentétben a mi webshopunk csakis kizárólag középkori termékekkel foglalkozik. Megkönnyítve a vásárlóknak
+és értékesítőknek a dolgát azzal, hogy ha középkori tematikájú terméket szeretnének vásárolni illetve eladni, akkor ezen a helyen 
+könnyedén megtehetik, mivel a webshopon a középkori tárgyakon kívül más nem található meg.
