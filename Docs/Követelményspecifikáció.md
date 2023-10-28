@@ -96,3 +96,26 @@ A weboldal tulajdonságai tartalmazzák:
 -   Beszédfelismerés
 -   Gyors és hatékony keresőfunkció
 -   Rendeléskövetés
+
+## 6. Követelménylista
+
+| ID | Modul | Név | Kifejtés |
+| :---: | --- | --- | --- |
+| K1  | Weboldal | Főoldal  | Webshop főoldalának dizájnja. |
+| K2  | Weboldal | Kínálat  | Webshopon kínált termékek közötti böngészés. |
+| K3  | Weboldal | Felhasználó  | Regisztrációs és bejelentkező felület. |
+| K4  | Weboldal | Profil  | A már regisztrált felhasználó profiljának megtekintése. |
+| K5  | Felhasználókezelés | Regisztráció  | Egy felhasználó létrehozása. |
+| K6  | Felhasználókezelés | Bejelentkezés  | Egy már létrejött felhasználó bejelentkeztetése. |
+| K7  | Felhasználókezelés | Profilkezelés  | Egy már létrejött felhasználó profiljának szerkesztése. |
+| K8  | Keresőfunkció | Szűrés  | Egy termék bizonyos tulajdonságaira való szűrés, a gyorsabb és hatékonyabb keresés érdekében. |
+| K9  | Keresőfunkció | Beszédfelismerés | Hang alapú beszédfelismerő keresési lehetőség. |
+| K10  | Vásárlás/eladás | Fizetési mód  | Készpénzes, utánvétel, online fizetési módok, lehetőségek. |
+| K11  | Vásárlás/eladás | Licitálás  | A vásárló licitálhat egy termékre, az eladó licitre kínálhatja eladni kívánt termékeit. |
+| K12  | Vásárlás/eladás | Beszélgetés  | A vásárló/eladó beszélgetést folytathat az adott termékről egymás között. |
+| K13  | Kínálat | Értékelés | Visszajelzés az adott termékről és eladóról. |
+| K14  | Kínálat | Termékleírás | Egy adott termékről képek, leírás az állapotáról. |
+| K15  | Kedvezmények | Kuponok | Ideiglenesen bizonyos termékek olcsóbban vásárolhatók. |
+| K16  | Ügyintézés | Ügyfélszolgálat | Probléma esetény segítséget nyújt egy munkatársunk. |
+| K17  | Ügyintézés | Rendeléskövetés | Egy adott termék megvásárlása után való állapotkövetés. |
+| K18  | Használati útmutató | GYIK | Gyakori kérdések a webshop működésével kapcsolatban. |
