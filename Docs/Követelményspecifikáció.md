@@ -14,3 +14,20 @@ lesz, mintha egy lovagi tornán lennének! Nem csak egy áruházat akarunk létr
 termékeket alapos kutatás előzi meg, hogy a lehető leghitelesebb élményt nyújtsuk a vásárlóknak. Legyen szó a ruházatról,
 kiegészítőkről vagy más emléktárgyakról, minden egyes darab az akkori időkbe repíti vissza az érdeklődőket. Ahogyan cégünk
 mottója is tartja: Minden Kézi, semmi Fake.
+
+## 2. Jelenlegi helyzet
+
+Sajnálatos módon, napjainkban a középkori stílusú webshopok még mindig csak szűk piaci részesedéssel rendelkeznek az online kereskedelem
+területén. Bár egyre inkább növekszik az érdeklődés a középkori kultúra és stílus iránt, még mindig viszonylag kevés ilyen jellegű
+webshoppal találkozhat az ember a piacon. Amellett viszont nem mehetünk el, hogy azok a középkori webshopok, amelyek kiváló minőségű
+termékeket kínálnak, és hitelesen idézik meg a középkor akkori atmoszféráját, sikeresen működnek. A közönség megszólítása és megtartása
+kulcsfontosságú ezen a területen. A jó minőségű tartalom és az érdekes történetek, melyek kapcsolódnak a termékekhez és a középkori
+időkhöz, segítenek létrehozni egy lojális és visszajáró vásárlói bázist. Fontos megemlíteni, hogy a technológiai fejlődés lehetővé teszi a
+középkori webshopok számára, hogy egyre jobb felhasználói élményt nyújtsanak a vásárlónak. Az interaktív funkciók, a könnyű navigáció és
+a modern fizetési megoldások mind hozzájárulnak ahhoz, hogy a vásárlók elégedettek legyenek. Az utóbbi években tapasztalható növekvő
+érdeklődés a középkori kultúra iránt meghatározó hatással van a középkori stílusú webshopok piacára, keresetére. A középkori webshopoknak
+egyre nagyobb lehetőségük van arra, hogy kiszolgálják az érdeklődő közönséget. Az elmúlt években tapasztalható folyamatosan növekvő
+érdeklődés a középkori kultúra iránt jelentős lendületet adott a középkori stílusú webshopok létrejöttéhez. Ez a piaci szegmens még
+mindig kisebb a nagyobb trendekhez képest. Az utóbbi időben egyre többen találnak rá erre az izgalmas világra. Az ilyen jellegű
+webshopoknak időt kell szánniuk arra, hogy megtalálják és elérjék a közönségüket, és megismerjék az igényeiket. A hiteles és minőségi
+áruk iránti kereslet folyamatosan növekszik.
