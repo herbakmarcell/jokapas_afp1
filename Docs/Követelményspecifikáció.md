@@ -31,3 +31,22 @@ egyre nagyobb lehetőségük van arra, hogy kiszolgálják az érdeklődő köz�
 mindig kisebb a nagyobb trendekhez képest. Az utóbbi időben egyre többen találnak rá erre az izgalmas világra. Az ilyen jellegű
 webshopoknak időt kell szánniuk arra, hogy megtalálják és elérjék a közönségüket, és megismerjék az igényeiket. A hiteles és minőségi
 áruk iránti kereslet folyamatosan növekszik.
+
+## 3. Vágyálom rendszer
+
+A középkori webshop projektünk célja, hogy létrehozzunk egy olyan online áruházat, amely hűen tükrözi a középkor hangulatát és
+esztétikáját. Az áruház a középkori kultúrák iránt érdeklődő vásárlókat kívánja megcélozni. Az áruházban kínált termékek gondosan
+válogatottak és kiváló minőségűek lesznek, hogy valóban visszarepítsék a vásárlókat és az érdeklődőket az akkori középkorba. A dizájn,
+a színek és a betűtípus mind-mind ezt a hangulatot igyekszi tükrözni, mintha a vásárló egy középkori piacon sétálna végig. Emellett a
+projekt a közösségépítést is szem előtt tartja. Nem csupán egy áruházat hozunk létre, hanem egy olyan közösséget, ahol az emberek
+megoszthatják közös érdeklődésüket a középkori kultúra iránt, és együtt élhetik át ennek a korszaknak a varázsát. Nem mellesleg, a
+webshopunk a középkori kultúrák iránt érdeklődők saját, a témához kapcsolódó termékeket is el tudnak adni. Ez egy nagyszerű
+kiegészítés az eredeti projekt célkitűzéséhez, és további lehetőségeket kínál a középkori kultúra szerelmesei számára. A középkori
+webshopunk egy olyan dinamikus online platform, ahol a felhasználók vásárolhatnak és saját, középkori témájú termékeket is
+eladhatnak. Az oldalon regisztrált felhasználóknak lehetőségük van létrehozni egy személyes profilt, ahol feltölthetik saját
+termékeiket, beleértve a leírásokat, árakat és fényképeket is. A webshop számára lehetőség van egyedi promóciók és kedvezmények
+beállítására, hogy ösztönözze a vásárlókat a vásárlásra. Emellett hírlevélre való feliratkozás is elérhető, így az érdeklődők
+frissítéseket kaphatnak az új termékekről, promóciókról és eseményekről. Azon felgasználók, akik termékeiket szeretnék eladásra 
+bocsájtani, a saját termékeik felett teljes körű kezelését kapnak, beleértve a készletnyilvántartást, az árak frissítését és a rendelések
+kezelését. A webshopon belül a vásárlók és az eladók értékeléseket és visszajelzéseket is hagyhatnak egymásnak. Ezen túlmenően, a webshop
+lehetőséget biztosít az eladók számára, hogy a saját profiljukon bemutassák magukat és a saját készítésű, középkori témájú termékeiket.
