@@ -1,0 +1,14 @@
+.container{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navbar{
+    background-color: #f1d59a;
+    width: 70%;
+    height: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
