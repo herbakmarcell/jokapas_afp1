@@ -3,15 +3,30 @@ import './App.css';
 import {Route, Routes} from 'react-router'
 import { HomePage } from './pages/Home/HomePage';
 import { Navbar } from './components/Navbar/Navbar';
+import { publicRoutes } from './routes/routes';
 function App() {
   return (
-    <Routes>
-      <Route path='*' element={
-        <>
-          <Navbar/>
-          <HomePage/>
-        </>}/>
-    </Routes>
+    <>
+      <Navbar/>
+      <Routes>
+        <Route path='*' element={
+            <HomePage/>
+        }/>
+        
+        {publicRoutes.map((route,index) => {
+          const Page = route.page
+          return(
+            <Route
+              key={index}
+              path={route.path}
+              element={
+                  <Page/>
+              }
+            />
+          )
+        })}
+      </Routes>
+    </>
   );
 }
 
