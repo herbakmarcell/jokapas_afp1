@@ -95,4 +95,35 @@ A webshop funkciói:
 ## 8. Képernyőtervek
  * -
 
+## 9. Forgatókönyvek
+
+Minden felhasználónak elsősorvan a vendég üdvöző, főoldal jelenik meg:
+
+ * A belépés gombra kattintva, a belépés menübe kerül a felhasználó ahol az adatait megadva beléphet amennyiben van már regisztrált profilja.
+ * A regisztráció gombra kattintva, a regiszrációs menübe kerül a felhasználó ahol az adatait megadva új profilt hozhat létre.
+
+Belépés után visszakerül a felhasználó a főoldalra ahol:
+
+ * A profiljára kattintva az azzal kapcsolatos opciók közül választhat
+   - A szerkesztés gombra kattintva szerkesztheti profilját.
+   - A rendelések gombra kattintva kezelheti és ellenőriheti rendeléseit.
+   - Az üzenetek gombra kattintva megnézheti nemrégiben váltott üzeneteit.
+ * Böngészhet a főoldalon található promóciós árucikkek között.
+ * A keresőt, szűrőt vagy hang-keresőt használva, kereshet a webshopon fellelhető termékek után.
+ * A kosár gombra kattintva, megnézheti kosarát.
+ * A hírlevél gombra kattintva megnézheti aktuális hírlevelünket.
+ * Egy termékre kattintva megtekintheti azt.
+
+Egy termékre kattintva az adott termék oldalára érkezik a felhasználó:
+
+ * A termékoldalon megtekintheti az adott árucikket.
+ * A kosárba helyezés gombbal a saját kosarába helyezheti amennyiben a termék még elérhető.
+ * Az azonnali vásárlás gombbal azonnali vásárlást kezdeményezhet, tranzakciót indíthat.
+ * A licitálás gombbal, emelhet a liciten vagy viszakozhat.
+
+A termékeit a felhasználó eladásra bocsáthatja:
+
+ * Az új termék gombbal új termég leírást hozhat létre és feltöltheti eladni kívánt árucikkjét.
+ * A termék szerkesztése gombbal szerkesztheti saját termékeinek leírását.
+ * A termék törlése gombbal törölheti saját termékét, amennyiben az elfogyott vagy már nem kívánja értékesíteni.
 
