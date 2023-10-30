@@ -3,7 +3,7 @@ import './App.css';
 import {Route, Routes} from 'react-router'
 import { HomePage } from './pages/Home/HomePage';
 import { Navbar } from './components/Navbar/Navbar';
-import { publicRoutes } from './routes/routes';
+import { protectedRoutes, publicRoutes } from './routes/routes';
 import { useEffect, useState } from 'react';
 import { UserContext } from './contexts/UserContext';
 function App() {
@@ -30,6 +30,18 @@ function App() {
         }/>
         
         {publicRoutes.map((route,index) => {
+          const Page = route.page
+          return(
+            <Route
+              key={index}
+              path={route.path}
+              element={
+                  <Page/>
+              }
+            />
+          )
+        })}
+        {isAuthenticated && protectedRoutes.map((route,index) => {
           const Page = route.page
           return(
             <Route

@@ -1,0 +1,23 @@
+.options-container{
+    height: 100%;
+    display: grid;
+    grid-template-areas:
+    'tracking-div rates-div'
+    'cart-div placeholder-div';
+    margin-top: 10px;
+    gap: 1px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.option-button{
+    min-height: 40px;
+    border-radius: 10px;
+    background-color: rgba(189, 106, 23, 0.449);
+    font-weight: 700;
+    border-color:  #834333;
+}
+
+.options-container button:hover{
+    cursor: pointer;
+}
