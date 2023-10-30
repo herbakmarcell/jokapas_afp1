@@ -127,3 +127,11 @@ A termékeit a felhasználó eladásra bocsáthatja:
  * A termék szerkesztése gombbal szerkesztheti saját termékeinek leírását.
  * A termék törlése gombbal törölheti saját termékét, amennyiben az elfogyott vagy már nem kívánja értékesíteni.
 
+## 10. Funkció - követelmény megfeleltetése
+
+ Id | Követelmény | Funkció |
+| :---: | --- | --- |
+| K1 | Egyszerű, Esztétikus | A webshop legfontosabb része a fukciói, de elengedhetetlen, hogy kinézete és használata is egyszerű, felhasználóbarát legyen. A termékek és a webshop felülete is egy kellemes esztétikai hatást kell, hogy keltsen|
+| K2 | Sokszínű választék | Habár szigorúan középkori árucikkekre specializálódunk, törekszünk arra, ezen kritériumon belül is szokszínű választékot nyújthasunk vásárlóinknak. |
+| K3 | Gyorsaság | Gyors és egyszerű tranzakciók, várakozási idő mentes, egyszerű fizetési módszerek. Gyors válasz idő a webshoptól és gyors letöltés |
+| K4 | Határtalan | Arra törekszünk, hogy a webshop akármennyi terméket tudjon kezelni és értékesíteni. |
