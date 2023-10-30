@@ -18,10 +18,35 @@ A középkori webshopok ma már egyedi és különleges helyet foglalnak el az o
   * Célcsoport: A középkori webshopok olyan vásárlókat céloznak, akik érdeklődnek a középkori kultúra iránt.
   * Egyedi termékek: Gyakran kézzel készített, egyedi termékek szerepelnek a kínálatban.
   * Fantázia és romantika: Az oldalak inkább romantikus vagy fantáziavilágot építenek, mintsem valósághű középkort idéznek.
-Piaci szerep:
+### Piaci szerep:
   * Piachelyzet: A középkori stílusú webshopok ma is népszerűek, és vonzók az érdeklődőknek.
   * Eladás és vásárlás: Ezek az áruházak lehetővé teszik, hogy egyedi, autentikus, nem sorozatgyártott termékeket vásároljunk vagy értékesítsünk.
   * Szakosodás: A középkori webshopunk kizárólag középkori témájú termékekre összpontosít.
   * Egyszerűség: A webshopon könnyen megtalálhatók a középkori tárgyak, mivel nincsenek más típusú termékek jelen.
   * Vásárlói és eladói közösség: A webshop egy közösségi helyszín is, ahol az érdeklődők és eladók találkozhatnak és kereskedhetnek középkori termékekkel.
+
+## Igényelt üzleti folyamatok modellje
+
+A webshop a jól megszokott, eladó-vásárló shémára épül, ahol a felhasználó mindkét szerepet betöltheti.
+A webshop funkciói:
+
+-   Regiszráció
+-   Bejelentkezés
+-   Termékek eladása
+-   Termékek megvásárlása
+-   Licitálási lehetőség
+-   Beszélgetés az eladóval/vásárlóval
+-   Termékekre való szűrés
+-   Képek és termékleírások
+-   Visszajelzések és értékelések
+-   Ügyfélszolgálat és rendeléskezelés
+-   Kuponok és Kedvezmények
+-   Készpénz és online fizetési lehetőségek
+-   Használati útmutató
+-   Beszédfelismerés
+-   Gyors és hatékony keresőfunkció
+-   Rendeléskövetés
+
+### Modell 
+![Funkspec-IUFM](https://github.com/herbakmarcell/jokapas_afp1/assets/117568964/012ed4eb-60d8-49f6-87ea-821455de4f15)
 
