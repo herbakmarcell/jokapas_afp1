@@ -8,7 +8,7 @@ Az utóbbi időben az érdeklődés folyamatosan növekszik a középkori kultú
 ## 2. Vágyálom rendszer 
 Célunk egy olyan középkori stílusú webshop létrehozása, amely hűen fogja majd visszaadni e korszak varázsát és bevonzza érdeklődő vásárlókat. Kínált termékeink gondosan lesznek válogatva és magas minőségűek, hogy valódi élményt nyújtsanak. Az oldal dizájnja és hangulata egy középkori piac atmoszféráját idézi majd.
 Emellett a közösségépítés is fontos számunkra. Nem csak egy áruházat fogunk létrehozni, hanem egy olyan közösséget, ahol az emberek megoszthatják közös érdeklődésüket a középkori kultúra iránt. Továbbá lehetőséget adunk majd a felhasználóknak, hogy saját, középkori témájú termékeiket értékesítsék.
-Webshopunk egy dinamikus online platform lesz, ahol vásárolhatsz és saját termékeket is értékesíthetsz. Regisztrált felhasználók saját profilokat hozhatnak létre, feltölthetik termékeiket, és beállíthatnak promóciókat. Hírlevélre való feliratkozás is elérhető lesz  új termékek és promóciók frissítéséhez. Az eladók tejhatalommal rendelkezhetnek majd az eladni kívánt árucikkeik fölött, ezalatt értendő például a készlet kezelés, ár frissítés vagy rendelése kezelés. Vevők és eladók egyaránt adhatnak egymásnak értékeléseket és visszajelzéseket.
+Webshopunk egy dinamikus online platform lesz, ahol vásárolhatsz és saját termékeket is értékesíthetsz. Regisztrált felhasználók saját profilokat hozhatnak létre, feltölthetik termékeiket, és beállíthatnak promóciókat. Hírlevélre való feliratkozás is elérhető lesz új termékek és promóciók frissítéséhez. Az eladók tejhatalommal rendelkezhetnek majd az eladni kívánt árucikkeik fölött, ezalatt értendő például a készlet kezelés, ár frissítés vagy rendelése kezelés. Vevők és eladók egyaránt adhatnak egymásnak értékeléseket és visszajelzéseket.
 Az eladók saját profiljukon bemutathatják majd magukat és saját készítésű, középkori témájú termékeiket is megoszthatják.
 
 ## 3. Jelenlegi üzleti folyamatok modellje
@@ -135,3 +135,12 @@ A termékeit a felhasználó eladásra bocsáthatja:
 | K2 | Sokszínű választék | Habár szigorúan középkori árucikkekre specializálódunk, törekszünk arra, ezen kritériumon belül is szokszínű választékot nyújthasunk vásárlóinknak. |
 | K3 | Gyorsaság | Gyors és egyszerű tranzakciók, várakozási idő mentes, egyszerű fizetési módszerek. Gyors válasz idő a webshoptól és gyors letöltés |
 | K4 | Határtalan | Arra törekszünk, hogy a webshop akármennyi terméket tudjon kezelni és értékesíteni. |
+
+## 11. Fogalomtár
+
+ -   **Esztétika:** Gyönyörködés érzése, a személy annak a dolognak az alakját, szerkezetét nagyon szépnek tartja.
+ -   **Autentikus** Eredeti, eredetisége bizonyítható.
+ -   **Atmoszféra:** Szellemi légkör, (köz)hangulat.
+ -   **Promóció:** Tevékenység a kereslet élénkítéséhez és az eladások növelése érdekében.
+ -   **Dizájn:** Egy ipari termék külsejének a tervezete.
+ -   **Tranzakció** Készpénz felvételeink, átutalásaink folyamata.
