@@ -73,3 +73,8 @@ A webshop funkciói:
 | K17  | Ügyintézés | Rendeléskövetés | Egy adott termék megvásárlása után való állapotkövetés. |
 | K18  | Használati útmutató | GYIK | Gyakori kérdések a webshop működésével kapcsolatban. |
 
+## 6. Használati esetek
+
+1. Eladás: A felhasználó feltölti a webshopba az árcikkjét, képekkel, leírással és árrall ellátva, ezzel eladásra bocsátva azt.
+2. Vásárlás: A felhasználó kiválaszt egy számára értékes árucikket, elindítja a kifizetési tranzakciót, és amint az végrehajtódott, megtörtént a vásárlás.
+3. Kapcsolattartás: A felhasználók, a webshop felületén lévő közösségi térben kapcsolatba léphetnek egymással hogy a vásárlással és más témákkal kapcsolatban beszélhetnek. 
