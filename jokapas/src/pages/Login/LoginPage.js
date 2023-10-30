@@ -1,13 +1,20 @@
 import './loginPage.css'
 import { useForm } from "react-hook-form"
+import { useNavigate } from 'react-router-dom'
 
 export function LoginPage() {
     const correctLogin = {user:"admin", password:"admin"}
     const {handleSubmit, register, formState: {errors, isValid, isDirty}} = useForm()
+    const navigate = useNavigate();
 
     const onSubmit = (data) => {
+        //TODO: KICSERÉLNI, HA KÉSZ A BACKEND
+        const fakeToken = "faketoken123"
         if(correctLogin.user == data.username && correctLogin.password == data.password){
             console.log("Sikeres bejelentkezés!")
+            localStorage.setItem("token", fakeToken)
+            navigate("/")
+            window.location.reload()
         }
         else{
             console.log("Sikertelen bejelentkezés!")
