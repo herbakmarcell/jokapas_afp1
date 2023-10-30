@@ -1,7 +1,7 @@
 export function HomePage() {
     return(
         <div>
-            Teszt
+            Főoldal
         </div>
     )
 }

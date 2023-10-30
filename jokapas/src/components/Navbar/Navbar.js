@@ -10,13 +10,13 @@ export function Navbar() {
                 <Link className='nav-title' to="/">Jokapás</Link>
                 <div class="link-container">
                     <ul class="nav-links">
-                        <CustomLink>
+                        <CustomLink to ="/kinalat">
                             Kínálat
                         </CustomLink>
-                        <CustomLink>
+                        <CustomLink to ="/ugyint">
                             Ügyintézés
                         </CustomLink>
-                        <CustomLink>
+                        <CustomLink to ="/gyik">
                             GYIK
                         </CustomLink>
                     </ul>
@@ -26,6 +26,5 @@ export function Navbar() {
                 </div>
             </nav>
         </div>
-        
     )
 }
