@@ -2,7 +2,7 @@
     height: 70px;
     display: flex;
     justify-content: center;
-    
+    margin-bottom: 30px;
 }
 
 .navbar{
@@ -28,12 +28,29 @@
     gap: 1rem;
 }
 
+.link-container a {
+    text-decoration: none;
+}
+
 .nav-title{
     text-decoration: none;
 }
 
-.link-container{
+.links{
     width: 100%;
     display: flex;
+}
 
+.login-link{
+    margin-right: 5px;
+    padding: 1px 5px;
+    height: 100%;
+    color:black;
+    text-decoration: none;
+}
+
+.login-link:hover{
+    background-color: rgba(189, 106, 23, 0.449);
+    border-radius: 20px;
+    color:white;
 }

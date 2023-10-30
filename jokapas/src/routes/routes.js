@@ -1,13 +1,13 @@
 import { HomePage } from "../pages/Home/HomePage";
 import { LoginPage } from "../pages/Login/LoginPage";
-import { KinalatPage } from "../pages/Kinalat/KinalatPage";
-import { UgyintPage } from "../pages/Ugyintezes/UgyintPage";
-import {GyikPage} from "../pages/GYIK/GyikPage";
+import { MarketPage } from "../pages/Market/MarketPage";
+import { AdminPage } from "../pages/Administration/AdministrationPage";
+import { FaqPage } from "../pages/FAQ/FaqPage";
 
 export const publicRoutes = [
     {path: "login", page: LoginPage},
-    {path: "kinalat", page: KinalatPage},
-    {path: "ugyint", page: UgyintPage},
-    {path: "gyik", page: GyikPage},
+    {path: "market", page: MarketPage},
+    {path: "admin", page: AdminPage},
+    {path: "faq", page: FaqPage},
     {path: "/", page: HomePage}
 ]

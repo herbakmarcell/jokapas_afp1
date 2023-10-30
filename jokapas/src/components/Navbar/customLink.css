@@ -1,0 +1,17 @@
+.link-container{
+    padding: 1px 5px;
+    height: 100%;
+}
+
+.link-container:hover{
+    background-color: rgba(189, 106, 23, 0.449);
+    border-radius: 20px;
+}
+
+.link-container a {
+    color:black;
+}
+
+.link-container a:hover{
+    color:white;
+}

@@ -8,19 +8,19 @@ export function Navbar() {
         <div className="container">
             <nav className='navbar'>
                 <Link className='nav-title' to="/">Jokapás</Link>
-                <div class="link-container">
-                    <ul class="nav-links">
-                        <CustomLink to ="/kinalat">
+                <div className="links">
+                    <ul className="nav-links">
+                        <CustomLink to ="/market">
                             Kínálat
                         </CustomLink>
-                        <CustomLink to ="/ugyint">
+                        <CustomLink to ="/admin">
                             Ügyintézés
                         </CustomLink>
-                        <CustomLink to ="/gyik">
+                        <CustomLink to ="/faq">
                             GYIK
                         </CustomLink>
                     </ul>
-                    <Link to="/login">
+                    <Link className="login-link" to="/login">
                         Bejelentkezés
                     </Link>
                 </div>
