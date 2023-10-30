@@ -78,3 +78,21 @@ A webshop funkciói:
 1. Eladás: A felhasználó feltölti a webshopba az árcikkjét, képekkel, leírással és árrall ellátva, ezzel eladásra bocsátva azt.
 2. Vásárlás: A felhasználó kiválaszt egy számára értékes árucikket, elindítja a kifizetési tranzakciót, és amint az végrehajtódott, megtörtént a vásárlás.
 3. Kapcsolattartás: A felhasználók, a webshop felületén lévő közösségi térben kapcsolatba léphetnek egymással hogy a vásárlással és más témákkal kapcsolatban beszélhetnek. 
+
+## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
+ * K1, K2, K3: Ez fogadja a felhasználót amikor belép a webshop online felületére.
+ * K4: A regisztrált felhaszáló itt ellenőrizheti saját profiljának információit.
+ * K5, K6, K7: Regisztrációs felület, Bejelentkezési felület, és a regisztrál profil szerkesztésére szént felület. Profilműveletek
+ * K8, K9: Keresés, szöveges, tulajdonság és hangfelismeréses alapon.
+ * K10, K11, K12: Vásárlási és eladási műveletek. Fizetés módja, licitálás és kapcsolattartás.
+ * K13: Visszajelzési rendszer, az eladó értékelheti a vásárlót, a vásárló pedig az eladót valamint termékét.
+ * K14: Termékleírás, ami állhat az adott terméről készült képekből, leírásból, és állapotból.
+ * K15: Promóciók, kezvezmények, kuponok, ideiglenes árcsökkentés bizonyos termékekre.
+ * K16: Ügyfélszolgálat, chat, valamint telefonos segítség nyújtás a webshop használata közben fellépő komplikációk esetére.
+ * K17: Rendeléskövetés, a megvásárolt terméket a vevő, webshopunkon keresztül, követheti és ellenőrizheti állapotát.
+ * K18: A webshoppal kapcsolatos gyakori kérdések és válaszok, ahol más felhasználók vagy munkatársunk nyújt segítséget.
+
+## 8. Képernyőtervek
+ * -
+
+
