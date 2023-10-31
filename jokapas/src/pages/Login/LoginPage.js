@@ -1,16 +1,16 @@
 import './loginPage.css'
 import { useForm } from "react-hook-form"
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 
 export function LoginPage() {
     const correctLogin = {user:"admin", password:"admin"}
     const {handleSubmit, register, formState: {errors, isValid, isDirty}} = useForm()
     const navigate = useNavigate();
-
+    
     const onSubmit = (data) => {
         //TODO: KICSERÉLNI, HA KÉSZ A BACKEND
         const fakeToken = "faketoken123"
-        if(correctLogin.user == data.username && correctLogin.password == data.password){
+        if(correctLogin.user === data.username && correctLogin.password === data.password){
             console.log("Sikeres bejelentkezés!")
             localStorage.setItem("token", fakeToken)
             navigate("/")
@@ -34,7 +34,7 @@ export function LoginPage() {
                         required: 'Ez a mező kötelező'
                     })}
                  />
-                 {errors.username && <p className="error">{errors.username.message}</p>}
+                 {errors.username && <span className="login-error">{errors.username.message}</span>}
 
                 <input 
                     className="login-input" 
@@ -46,10 +46,13 @@ export function LoginPage() {
                         required: 'Ez a mező kötelező'
                     })}
                 />
-                {errors.password && <p className="error">{errors.password.message}</p>}
+                {errors.password && <span className="login-error">{errors.password.message}</span>}
 
                 <button disabled={!isDirty || !isValid} type="submit" className='login-button'>Bejelentkezés</button>
             </form>
+            <div className='register-form-link'>
+                Még nem regisztrált? <Link to="/register">Regisztrálok</Link>
+            </div>
         </div>
     )
 }

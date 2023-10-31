@@ -40,7 +40,7 @@
     display: flex;
 }
 
-.login-link{
+.auth-link{
     margin-right: 5px;
     padding: 1px 5px;
     height: 100%;
@@ -48,7 +48,7 @@
     text-decoration: none;
 }
 
-.login-link:hover{
+.auth-link:hover{
     background-color: rgba(189, 106, 23, 0.449);
     border-radius: 20px;
     color:white;

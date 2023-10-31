@@ -4,6 +4,7 @@ import { MarketPage } from "../pages/Market/MarketPage";
 import { AdminPage } from "../pages/Administration/AdministrationPage";
 import { FaqPage } from "../pages/FAQ/FaqPage";
 import { ProfilePage } from "../pages/Profile/ProfilePage";
+import { RegisterPage } from "../pages/Register/RegisterPage";
 
 export const publicRoutes = [
     {path: "login", page: LoginPage},
@@ -11,6 +12,7 @@ export const publicRoutes = [
     {path: "admin", page: AdminPage},
     {path: "faq", page: FaqPage},
     {path: "/", page: HomePage},
+    {path: "register", page: RegisterPage},
     
 ]
 

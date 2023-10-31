@@ -1,17 +1,17 @@
-.login-form{
+.register-form{
     display: flex;
     flex-direction: column;
     width: 25%
 }
 
-.login-container{
+.register-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.login-input{
+.register-input{
     margin-bottom: 10px;
     border-radius: 15px;
     min-height: 30px;
@@ -20,11 +20,11 @@
     padding-left: 5px;
 }
 
-.login-input:focus{
+.register-input:focus{
     outline: none;
 }
 
-.login-button{
+.register-button{
     margin-top: 10px;
     min-height: 40px;
     border-radius: 20px;
@@ -32,22 +32,21 @@
     font-weight: 700;
 }
 
-.login-button:not([disabled]):hover{
+.register-button:not([disabled]):hover{
     cursor: pointer;
 }
 
-.register-form-link {
+.login-form-link{
     margin-top: 10px;
-    
 }
 
-.register-form-link a {
+.login-form-link a {
     color: brown;
     text-decoration: none;
     font-weight: 500;
 }
 
-.login-error{
+.register-error{
     text-align: center;
     color: red;
     margin-bottom:10px;

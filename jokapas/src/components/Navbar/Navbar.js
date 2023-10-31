@@ -31,17 +31,22 @@ export function Navbar() {
                     </ul>
                     {userId ? 
                         <div className='profil-container'>
-                            <Link className="login-link" to="/profile">
+                            <Link className="auth-link" to="/profile">
                                 Profil
                             </Link>
-                            <Link className="login-link" to="/" onClick={onLogout}>
+                            <Link className="auth-link" to="/" onClick={onLogout}>
                                 Kijelentkezés
                             </Link>
                         </div>
                         :
-                        <Link className="login-link" to="/login">
-                            Bejelentkezés
-                        </Link>
+                        <div>
+                            <Link className="auth-link" to="/login">
+                                Bejelentkezés
+                            </Link>
+                            <Link className="auth-link" to="/register">
+                                Regisztráció
+                            </Link>
+                        </div>
                     }
                     
                 </div>
