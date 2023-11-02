@@ -10,14 +10,14 @@ export function Navbar() {
     const navigate = useNavigate();
     function onLogout(){
         localStorage.removeItem("token")
+        setUserId("")
         navigate("/")
-        window.location.reload();
     }
     return(
         <div className="container">
             <nav className='navbar'>
-                <Link className='nav-title' to="/">Jokapás</Link>
                 <div className="links">
+                    <Link className='nav-title' to="/"> <img className='nav-logo' src="logo.png" alt="logo"/></Link>
                     <ul className="nav-links">
                         <CustomLink to ="/market">
                             Kínálat

@@ -8,6 +8,7 @@ export function RegisterPage() {
     
     const onSubmit = (data) => {
         console.log(data)
+        navigate("/")
     }
     return(
         <div className="register-container">

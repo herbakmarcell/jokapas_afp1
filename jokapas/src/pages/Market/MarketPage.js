@@ -2,7 +2,7 @@ import './marketPage.css'
 export function MarketPage(){
     return(
         <div className="market-container">
-            Kínálat
+            <div className="market-title">Kínálat</div>
         </div>
     )
 }

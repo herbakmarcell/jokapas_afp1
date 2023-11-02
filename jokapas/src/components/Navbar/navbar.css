@@ -32,7 +32,15 @@
 }
 
 .nav-title{
+    display: flex;
     text-decoration: none;
+    color: black;
+    text-align: left;
+    margin-left: 20px;
+}
+.nav-logo{
+    width: 58px;
+    height: 55px;
 }
 
 .links{
