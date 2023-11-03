@@ -1,6 +1,14 @@
+import { useState } from "react"
 import { ProfileOptions } from "./ProfileOptions"
+import { ProfileSettings } from "./ProfileSettings/ProfileSettings"
 import "./profilePage.css"
+import { ProfileTabs } from "./ProfileSettings/ProfileTabs/ProfileTabs"
 export function ProfilePage() {
+    const [activeTab, setActiveTab] = useState(0)
+
+    function showActiveTab(active){
+        setActiveTab(active)
+    }
     return(
         <div className='profile-container'>
             <div className="profile-div">
@@ -19,10 +27,10 @@ export function ProfilePage() {
                 </div>
                 <div className="profile-body">
                     <div className="profile-functions-left">
-                        Left
+                        <ProfileSettings showActiveTab={showActiveTab}/>
                     </div>
                     <div className="profile-functions-right">
-                        Right
+                        <ProfileTabs activeTab={activeTab}/>
                     </div>
                 </div>
             </div>

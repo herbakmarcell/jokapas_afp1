@@ -5,6 +5,7 @@ import { AdminPage } from "../pages/Administration/AdministrationPage";
 import { FaqPage } from "../pages/FAQ/FaqPage";
 import { ProfilePage } from "../pages/Profile/ProfilePage";
 import { RegisterPage } from "../pages/Register/RegisterPage";
+import { CartPage } from "../Cart/CartPage";
 
 export const publicRoutes = [
     {path: "login", page: LoginPage},
@@ -17,5 +18,6 @@ export const publicRoutes = [
 ]
 
 export const protectedRoutes = [
-    {path: "profile", page: ProfilePage}
+    {path: "profile", page: ProfilePage},
+    {path: "cart", page: CartPage},
 ]

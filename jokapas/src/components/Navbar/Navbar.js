@@ -28,6 +28,13 @@ export function Navbar() {
                         <CustomLink to ="/faq">
                             GYIK
                         </CustomLink>
+                        {userId ?
+                        <CustomLink to ="/cart">
+                            Kosár
+                        </CustomLink>
+                        :
+                        ""
+                        }
                     </ul>
                     {userId ? 
                         <div className='profil-container'>
@@ -39,7 +46,7 @@ export function Navbar() {
                             </Link>
                         </div>
                         :
-                        <div>
+                        <div className='auth-navbar-container'>
                             <Link className="auth-link" to="/login">
                                 Bejelentkezés
                             </Link>
@@ -48,7 +55,6 @@ export function Navbar() {
                             </Link>
                         </div>
                     }
-                    
                 </div>
             </nav>
         </div>
