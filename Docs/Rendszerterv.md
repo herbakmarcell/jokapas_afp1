@@ -69,6 +69,22 @@ Az oldal regisztráció nélkül használható, korlátozásokkal. Az oldalon l�
 A felhasználó az oldal megnyitása után használhatja az árukat kilistázó oldalt, a kosarat, a termékekről részletesebb információt adó áruoldalt, és a kapcsolattartási oldalt. Bejelentkezés után lehetősége lesz a felhasználónak a terméket megvásárolni, a csomagkövetést elérni, illetve az árukat bejelenteni.
    
 ## 4. Követelmények
+
+### Funkcionális követelmények
+
+| ID | Megnevezés               | Leírás                                                                                                                                                     |
+|----|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| K1 | Bejelentkezési oldal     | Egyes funkciók elérése előtt ezen az oldalon kell azonosítania magát a felhasználónak mielőtt elérhetné azt.                                               |
+| K2 | Kijelentkezési oldal     | Biztonsági okokból itt jelentkezhet ki a fiókjábol a felhasználó.                                                                                          |
+| K3 | Termékböngésző           | A felhasználó itt láthatja az oldalon megtalálható termékek választékát, itt tudja kosárba rakni, vagy a termékspecifikus oldalt elérni.                   |
+| K4 | Termékspecifikus oldal   | Itt a felhasználó részletesebb leírást kaphat egyes az oldalon megtalálható termékekről, itt tudja kosárba rakni a terméket vagy bejelenteni ellenőrzésre. |
+| K5 | Kosár                    | A felhasználó ezen az oldalon láthatja az álltala kijelölt termékeket, innen tud tovább menni a rendelés leadására.                                        |
+| K6 | Bejelentő oldal          | A felhasználó itt tudja kiválasztani bejelentési szándékának indokát, itt tudja elküldeni a moderátoroknak.                                                |
+| K7 | Kapcsolatfelvételi oldal | Itt tud a felhasználó emailt írni az oldal karbantartójának.                                                                                               |
+| K8 | Regisztrációs oldal      | A felhasználó ezen az oldalon tudja megadni az adatait, amik szükségesek egyes funkciók eléréséhez.                                                        |
+| K9 | Csomagkövetés oldal      | A felhasználó itt láthatja csomagjának az állapotás, és a várható szállitási dátumot.                                                                      |
+
+### Nemfunkcionális követelmények
    
 ## 5. Funkcionális terv
     
