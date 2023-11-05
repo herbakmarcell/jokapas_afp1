@@ -3,8 +3,27 @@
 ## 2. Projektterv
    
 ### 2.1 Projektszerepkörök, felelőségek
+* Scrum master:
+	-   Kaponya Martin 	
+* Product owner:
+	-   Kaponya Martin 
+* Üzleti szereplő:
+	-   Megrendelő:
+		 -  Bagoly Gábor
 
 ### 2.2 Projektmunkások és felelőségek
+
+* Frontend:
+	-   Pántya Barnabás
+	-   Fodor Győző Benedek
+* Backend:  
+	-   Herbák Marcell
+	-   Détári Levente
+* Tesztelés:   
+	-   Herbák Marcell
+	-   Pántya Barnabás
+	-   Détári Levente
+	-   Fodor Győző Benedek
 
 ### 2.3 Ütemterv
    
