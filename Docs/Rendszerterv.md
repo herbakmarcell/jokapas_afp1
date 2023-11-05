@@ -62,6 +62,8 @@ A Kézifék Entertaiment Inc. azt kapta megbízásul, hogy készítsen egy köz�
 
 ### 3.1 Üzleti szereplők
 
+Az oldal regisztráció nélkül használható, korlátozásokkal. Az oldalon lévő árucikkek megtekinthetőek, kosárba lehet rakni őket, viszont megvásárláshoz, csomagkövetéshez, és árufeltöltéshez regisztrálni kell az oldalra.
+
 ### 3.2 Üzleti folyamatok
    
 ## 4. Követelmények
