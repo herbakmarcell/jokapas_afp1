@@ -57,6 +57,9 @@ A Kézifék Entertaiment Inc. azt kapta megbízásul, hogy készítsen egy köz�
    
 ## 3. Üzleti folyamatok modellje
 
+
+![oldal felületének felépitése](../Img/business.png)
+
 ### 3.1 Üzleti szereplők
 
 ### 3.2 Üzleti folyamatok
