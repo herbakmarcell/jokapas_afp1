@@ -53,6 +53,17 @@
 ### 5.2 Menü-hierarchia:
    
 ## 6. Fizikai környezet
+
+### Vásárolt szoftverkomponensek, valamint esetleges külső rendszerek
+Nincsenek vásárolt szoftverkomponensek.
+### Hardver topológia
+Olyan grafikus felülettel rendelkező operációs rendszer alkalmas, amely tud böngészőt futtatni.
+### Fizikai alrendszerek
+Kliens gépek: A követelményeknek megfelelő, grafikus felülettel rendelkező operációs rendszerrel rendelkező PC-k.
+Szerver (Host) gép: Az adatbázis rendszer és a weboldalhoz szükséges összetevők itt találhatóak. A kliens gép ezzel kommunikál.
+### Fejlesztő eszközök
+Visual Code
+Böngésző (Google Chrome, Firefox, Opera, Brave, Safari)
     
 ## 7. Architekturális terv
     
