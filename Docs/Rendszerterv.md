@@ -161,5 +161,9 @@ A tesztelés során a szoftver megfelelő működését vizsgáljuk. Amennyiben 
 A tesztelés során különböző operációs rendszereken (IOS, Android, Windows) és különböző böngészőkben (Chrome, firefox, Opera, Safari, Brave) vizsgáljuk az oldal megfelelő működését.
 
 ## 11. Telepítési terv
+
+Az oldal nem igényli bármiféle szoftvernek a telepítését, bármely elterjedt böngészőből elérhető az oldal.
+
+Szükségünk van az oldal eléréséhez egy internet eléréssel rendelkező IOS, android, linux, Windows, vagy MacOS-t futtató eszközre, és az azon lévő internetböngészésre alkalmas böngészőalkalmazásra.
     
 ## 12. Karbantartási terv
