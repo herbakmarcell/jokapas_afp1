@@ -147,7 +147,7 @@ A webshop több különböző táblát használ a megfelelő működés érdeké
 
 ## 9. Implementációs terv
 
-
+React.js kezeli a backend és frontendet, illetve az adatbázist.
     
 ## 10. Tesztterv
 
@@ -167,3 +167,9 @@ Az oldal nem igényli bármiféle szoftvernek a telepítését, bármely elterje
 Szükségünk van az oldal eléréséhez egy internet eléréssel rendelkező IOS, android, linux, Windows, vagy MacOS-t futtató eszközre, és az azon lévő internetböngészésre alkalmas böngészőalkalmazásra.
     
 ## 12. Karbantartási terv
+
+Fontos ellenőrizni:
+*	Az oldal kritikus információi nem elérhetők az arra nem felhatalmazott felhasználók számára. Ilyenek például a fizetési adatok, bejelentkezési adatok, és az oldalon lévő termékek adatai.
+*	Felhasználói visszajelzéseket az oldallal kapcsolatban, ezeket mielőbb javítani kell.
+*	A felhasználók álltal tett árubejelentéseket a moderátoroknak ellenőriznie kell.
+
