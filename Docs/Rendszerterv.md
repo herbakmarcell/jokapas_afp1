@@ -75,6 +75,14 @@ Az oldal használatához el kell indítani a webböngészőt, a keresősávjába
     
 ## 8. Adatbázis terv
 
+A webshop több különböző táblát használ a megfelelő működés érdekében, ezek: 
+
+| Tábla    | Betöltendő funkció                         | Tábla attribútumai                                                         |
+|----------|--------------------------------------------|----------------------------------------------------------------------------|
+| Users    | A regisztrált felhasználók adatait tárolja | userID, username, password, full_name, icon, 2FA                           |
+| Products | A feltöltött termékek adatait tárolja      | productID, product_tag, product_name, description, sellerID, isUnavailable |
+| Orders   | A vásárolt termékeket tárolja              | orderID, productID, sellerID, userID, status                               |
+
 ## 9. Implementációs terv
     
 ## 10. Tesztterv
