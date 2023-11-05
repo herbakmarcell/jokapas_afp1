@@ -28,7 +28,22 @@ A Kézifék Entertaiment Inc. azt kapta megbízásul, hogy készítsen egy köz�
 	-   Fodor Győző Benedek
 
 ### 2.3 Ütemterv
-   
+
+|Funkció                  | Feladat                   | Prioritás | Becslés (nap) | Aktuális becslés (nap) | Eltelt idő (nap) | Határidő (nap)      |
+|-------------------------|---------------------------|-----------|---------------|------------------------|------------------|---------------------|
+|Követelmény specifikáció |Megírás                    |         1 |             1 |                      1 |                1 |                   1 |             
+|Funkcionális specifikáció|Megírás                    |         1 |             1 |                      1 |                1 |                   1 |
+|Rendszerterv             |Megírás                    |         1 |             1 |                      1 |                2 |                   2 |
+|Front End                |Vizuális tervek elkészítése|         2 |             1 |                      1 |                1 |                   1 |
+|Front End                |Prototípus elkészítése     |         2 |             3 |                      3 |                3 |                   5 |
+|Front End                |Alapfunkciók elkészítése   |         2 |             2 |                      2 |                2 |                   2 |
+|Back End                 |Prototípus elkészítése     |         3 |             5 |                      5 |                0 |                   5 |
+|Back End                 |Alapfunkciók elkészítése   |         3 |             3 |                      3 |                0 |                   3 |
+|Front End                |Termék funkciók elkészítése|         4 |             5 |                      5 |                0 |                   5 |
+|Back End                 |Termék funkciók elkészítése|         4 |             5 |                      5 |                0 |                   5 |
+|Front- és Back End       |Ügyfélszolgálat elkészítése|         5 |             2 |                      2 |                0 |                   2 |
+|Front- és Back End       |Tesztelés                  |         6 |             2 |                      2 |                0 |                   2 |
+
 ### 2.4 Mérföldkövek
 
    *   10.28. Követelmény specifikáció elkészítése
