@@ -146,8 +146,15 @@ A webshop több különböző táblát használ a megfelelő működés érdeké
 | Orders   | A vásárolt termékeket tárolja              | orderID, productID, sellerID, userID, status                               |
 
 ## 9. Implementációs terv
+
+
     
 ## 10. Tesztterv
+
+A tesztelések célja a rendszer és komponensei funkcionalitásának teljes vizsgálata,
+ellenőrzése a rendszer által megvalósított üzleti szolgáltatások verifikálása.
+A teszteléseket a fejlesztői csapat minden tagja elvégzi.
+Egy teszt eredményeit a tagok dokumentálják külön fájlokba.
 
 ## 11. Telepítési terv
     
