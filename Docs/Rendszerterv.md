@@ -78,6 +78,15 @@ A rendszer egy szerver (host) gépen fut, amelyet a felhasználók (kliensek) eg
 | delivery            | Rendelések állapotának módosítása                                                                                                                                                                                       |
    
 ### 5.2 Menü-hierarchia:
+ * Jókapás Felület:
+	- Navigációs sáv
+		- Kínálat, Ügyfélszolgálat, GYIK, Bejelentkezés vagy Profil 
+	- Oldal tartalma a menüpontoktól függően
+	- Alsó sáv legális dokumentumok és trademark
+ * Futárszolgálat Felület:
+	- Navigációs sáv
+ 		- Rendelések, Bejelentkezés vagy Kijelentkezés
+   	- Termékek és állapotuk módosítása 
    
 ## 6. Fizikai környezet
 
