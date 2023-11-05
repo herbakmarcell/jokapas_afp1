@@ -65,6 +65,8 @@ A Kézifék Entertaiment Inc. azt kapta megbízásul, hogy készítsen egy köz�
 Az oldal regisztráció nélkül használható, korlátozásokkal. Az oldalon lévő árucikkek megtekinthetőek, kosárba lehet rakni őket, viszont megvásárláshoz, csomagkövetéshez, és árufeltöltéshez regisztrálni kell az oldalra.
 
 ### 3.2 Üzleti folyamatok
+
+A felhasználó az oldal megnyitása után használhatja az árukat kilistázó oldalt, a kosarat, a termékekről részletesebb információt adó áruoldalt, és a kapcsolattartási oldalt. Bejelentkezés után lehetősége lesz a felhasználónak a terméket megvásárolni, a csomagkövetést elérni, illetve az árukat bejelenteni.
    
 ## 4. Követelmények
    
