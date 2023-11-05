@@ -75,7 +75,7 @@ A felhasználó az oldal megnyitása után használhatja az árukat kilistázó 
 | ID | Megnevezés               | Leírás                                                                                                                                                     |
 |----|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | K1 | Bejelentkezési oldal     | Egyes funkciók elérése előtt ezen az oldalon kell azonosítania magát a felhasználónak mielőtt elérhetné azt.                                               |
-| K2 | Kijelentkezési oldal     | Biztonsági okokból itt jelentkezhet ki a fiókjábol a felhasználó.                                                                                          |
+| K2 | Kijelentkezési oldal     | Biztonsági okokból itt jelentkezhet ki a fiókjából a felhasználó.                                                                                          |
 | K3 | Termékböngésző           | A felhasználó itt láthatja az oldalon megtalálható termékek választékát, itt tudja kosárba rakni, vagy a termékspecifikus oldalt elérni.                   |
 | K4 | Termékspecifikus oldal   | Itt a felhasználó részletesebb leírást kaphat egyes az oldalon megtalálható termékekről, itt tudja kosárba rakni a terméket vagy bejelenteni ellenőrzésre. |
 | K5 | Kosár                    | A felhasználó ezen az oldalon láthatja az álltala kijelölt termékeket, innen tud tovább menni a rendelés leadására.                                        |
@@ -85,6 +85,11 @@ A felhasználó az oldal megnyitása után használhatja az árukat kilistázó 
 | K9 | Csomagkövetés oldal      | A felhasználó itt láthatja csomagjának az állapotás, és a várható szállitási dátumot.                                                                      |
 
 ### Nemfunkcionális követelmények
+
+| ID  | Megnevezés                             | Leírás                                                                                                 |
+|-----|----------------------------------------|--------------------------------------------------------------------------------------------------------|
+| K10 | Középkort idéző autentikus oldaldesign | Maga az oldal designja, a színek, a betűk, minden egy lovagi torna hangulatát idézi.       |
+| K11 | átlátható, könnyen kezelhető felület   | Az oldalak könnyen használhatóak legyenek, átláthatóak legyenek, intuitívak, és ne legyenek zsúfoltak. |
    
 ## 5. Funkcionális terv
     
