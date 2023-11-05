@@ -66,6 +66,16 @@ A Kézifék Entertaiment Inc. azt kapta megbízásul, hogy készítsen egy köz�
 ## 5. Funkcionális terv
     
 ### 5.1 Rendszerszereplők
+
+A rendszer egy szerver (host) gépen fut, amelyet a felhasználók (kliensek) egy webböngészőn keresztül érik el. A felhasználók között több jogosultság is megoszlik, ezek:
+
+| Felhasználói jogkör | Jogok                                                                                                                                                                                                                   |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| no_login            | Regisztráció és bejelentkezés, Áruk megtekintése                                                                                                                                                                        |
+| user                | Áruk megtekintése és megvásárlása, Saját rendelés leadása, törlése és követése, saját profil szerkesztése és törlése, Saját áru eladása és törlése, Értékelés írása a vásárolt termékre, Ügyfélszolgálati segítségkérés |
+| moderator           | user + Értékelések törlése, Áruk törlése, Ügyfélszolgálati segítségnyújtás                                                                                                                                              |
+| admin               | moderator + delivery + Rendelések törlése, Profilok törlése, Ügyfélszolgálati esemény törlése                                                                                                                           |
+| delivery            | Rendelések állapotának módosítása                                                                                                                                                                                       |
    
 ### 5.2 Menü-hierarchia:
    
