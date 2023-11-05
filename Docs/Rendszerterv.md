@@ -1,5 +1,7 @@
 ## 1. A rendszer célja
 
+A Kézifék Entertaiment Inc. azt kapta megbízásul, hogy készítsen egy középkort idéző webshopot, mely kitűnik a ma fellelhető webshopok közül a minőségre helyezett hangsúlyával, és egyedi, autentikus, kézzel készült termékeivel, a tömegből kitűnő webdesignal. A Kézifék E. Inc. elkötelezett amellett, hogy a Jókapás webshop kielégítse a középkori kultúrák szerelmeseinek minden igényét, mindezt a korhoz leghitelesebben kinéző felületen keresztül. Nem csak egy áruházat akarunk létrehozni, hanem egy olyan helyet, ahol az emberek igazán átélhetik azt a varázslatos világot, ami akkoriban volt. Ez a projekt az általunk kifejlesztett egyedi és kreatív megoldásokkal fogja elősegíteni, hogy új szintre emeljük a középkori kultúrák iránt érdeklődő vásárlók elérését. Felhasználóink könnyen létre tudnak hozni a kézzel készült,korhű árúinak aukciókat, ahol nem kell aggódniuk a adásvétel és a kiszállítás bonyodalmaitól. Hogy oldalunk a lehető legmagasabb színvonalat képviselhesse, az árúkat be lehet nekünk jelenteni, ahol kiválasztható a probléma típusa az árúval, mely után a moderátorok aktívan bevizsgálhatják az így megjelölt árúkat. Oldalunk teljeskörű pénzvisszafizetési garanciát vállal az oldalon megvett árúkra, ha azok nem autentikusak, nem felelnek meg a leírásnak, vagy nem kézzel készült darabok.
+
 ## 2. Projektterv
    
 ### 2.1 Projektszerepkörök, felelőségek
