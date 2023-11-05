@@ -94,7 +94,7 @@ A webshop több különböző táblát használ a megfelelő működés érdeké
 
 | Tábla    | Betöltendő funkció                         | Tábla attribútumai                                                         |
 |----------|--------------------------------------------|----------------------------------------------------------------------------|
-| Users    | A regisztrált felhasználók adatait tárolja | userID, username, password, full_name, icon, 2FA                           |
+| Users    | A regisztrált felhasználók adatait tárolja | userID, username, password, email, full_name, icon, 2FA                           |
 | Products | A feltöltött termékek adatait tárolja      | productID, product_tag, product_name, description, sellerID, isUnavailable |
 | Orders   | A vásárolt termékeket tárolja              | orderID, productID, sellerID, userID, status                               |
 
