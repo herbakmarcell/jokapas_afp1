@@ -66,6 +66,10 @@ Visual Code
 Böngésző (Google Chrome, Firefox, Opera, Brave, Safari)
     
 ## 7. Architekturális terv
+
+A szolgáltatás igénybevételéhez szükséges az állandó internetkapcsolat és webböngésző (Google Chrome, Firefox, Opera, Brave, Safari). A felhasználónak az adatbázishoz nem szükséges külön csatlakoznia, a weboldal háttérben autómatikusan elvégzi.
+
+Az oldal használatához el kell indítani a webböngészőt, a keresősávjába bele kell írnia a Jókapás URL címét, ezután igénybe veheti a szolgáltatásokat.
     
 ## 8. Adatbázis terv
 
