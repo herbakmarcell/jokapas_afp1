@@ -28,6 +28,15 @@
 ### 2.3 Ütemterv
    
 ### 2.4 Mérföldkövek
+
+   *   10.28. Követelmény specifikáció elkészítése
+   *   10.30. Funkcionális specifikáció elkészítése
+   *   11.05. Rendszerterv elkészítése
+   *   11.14. Bejelentkező prototípusoldal elkészítése
+   *   11.15. I. Sprint Prototípus prezentálása
+   *   11.29. Alpha tesztelések megkezdése
+   *   12.12. Utolsó simítások és tesztelések
+   *   12.13. II. Sprint végső prototípus bemutatása
    
 ## 3. Üzleti folyamatok modellje
 
