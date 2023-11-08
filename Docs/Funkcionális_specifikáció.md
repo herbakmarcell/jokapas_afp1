@@ -93,7 +93,8 @@ A webshop funkciói:
  * K18: A webshoppal kapcsolatos gyakori kérdések és válaszok, ahol más felhasználók vagy munkatársunk nyújt segítséget.
 
 ## 8. Képernyőtervek
- * -
+ ![képernyőterv](https://github.com/herbakmarcell/jokapas_afp1/assets/117568964/d74a50b2-857f-4e03-b6c0-1a8da8c0488a)
+
 
 ## 9. Forgatókönyvek
 
