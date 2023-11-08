@@ -1,0 +1,11 @@
+.admin-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admin-title{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+}
