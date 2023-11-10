@@ -120,11 +120,10 @@ Egy termékre kattintva az adott termék oldalára érkezik a felhasználó:
  * A termékoldalon megtekintheti az adott árucikket.
  * A kosárba helyezés gombbal a saját kosarába helyezheti amennyiben a termék még elérhető.
  * Az azonnali vásárlás gombbal azonnali vásárlást kezdeményezhet, tranzakciót indíthat.
- * A licitálás gombbal, emelhet a liciten vagy viszakozhat.
 
 A termékeit a felhasználó eladásra bocsáthatja:
 
- * Az új termék gombbal új termég leírást hozhat létre és feltöltheti eladni kívánt árucikkjét.
+ * Az új termék gombbal új termék leírást hozhat létre és feltöltheti eladni kívánt árucikkjét.
  * A termék szerkesztése gombbal szerkesztheti saját termékeinek leírását.
  * A termék törlése gombbal törölheti saját termékét, amennyiben az elfogyott vagy már nem kívánja értékesíteni.
 
