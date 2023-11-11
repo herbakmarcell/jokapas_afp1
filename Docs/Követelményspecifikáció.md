@@ -46,7 +46,7 @@ webshopunk egy olyan dinamikus online platform, ahol a felhasználók vásárolh
 eladhatnak. Az oldalon regisztrált felhasználóknak lehetőségük van létrehozni egy személyes profilt, ahol feltölthetik saját
 termékeiket, beleértve a leírásokat, árakat és fényképeket is. A webshop számára lehetőség van egyedi promóciók és kedvezmények
 beállítására, hogy ösztönözze a vásárlókat a vásárlásra. Emellett hírlevélre való feliratkozás is elérhető, így az érdeklődők
-frissítéseket kaphatnak az új termékekről, promóciókról és eseményekről. Azon felgasználók, akik termékeiket szeretnék eladásra 
+frissítéseket kaphatnak az új termékekről, promóciókról és eseményekről. Azon felhasználók, akik termékeiket szeretnék eladásra 
 bocsájtani, a saját termékeik felett teljes körű kezelését kapnak, beleértve a készletnyilvántartást, az árak frissítését és a rendelések
 kezelését. A webshopon belül a vásárlók és az eladók értékeléseket és visszajelzéseket is hagyhatnak egymásnak. Ezen túlmenően, a webshop
 lehetőséget biztosít az eladók számára, hogy a saját profiljukon bemutassák magukat és a saját készítésű, középkori témájú termékeiket.
