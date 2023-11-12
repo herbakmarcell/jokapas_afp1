@@ -106,15 +106,33 @@ A rendszer egy szerver (host) gépen fut, amelyet a felhasználók (kliensek) eg
 | delivery            | Rendelések állapotának módosítása                                                                                                                                                                                       |
    
 ### 5.2 Menü-hierarchia:
- * Jókapás Felület:
-	- Navigációs sáv
-		- Kínálat, Ügyfélszolgálat, GYIK, Bejelentkezés vagy Profil 
-	- Oldal tartalma a menüpontoktól függően
-	- Alsó sáv legális dokumentumok és trademark
- * Futárszolgálat Felület:
-	- Navigációs sáv
- 		- Rendelések, Bejelentkezés vagy Kijelentkezés
-   	- Termékek és állapotuk módosítása 
+ * Jókapás Felület: 
+	- Felhasználó
+		- Kínálat böngészése
+		- GYIK oldal megtekintése
+		- Bejelentkezés
+	- Belépett felhasználó
+		- Kínálat böngészése
+		- Ügyfélszolgálat felkeresése
+		- GYIK oldal megtekintése
+		- Profil szerkesztése
+		- Rendelés leadása
+		- Értékelés írása
+		- Saját rendelés törlése
+  		- Saját profil törlése
+	- Moderátor felhasználó
+		- Értékelések törlése
+		- Ügyfélszolgálati kérdések válaszolása
+	- Admin felhasználó
+		- Felhasználók törlése
+		- Tételek törlése
+		- Értékelések törlése
+		- Ügyfélszolgálati kérdések válaszolása
+		- Rendelések törlése
+ * Futárszolgálat Felület: (csak futárszolgálatnak elérhető)
+	- Az oldal csak "delivery", azaz futárszolgálatnak elérhető bejelentkezés után
+ 		- Rendelések böngészése
+ 		- Rendelések állapotának szerkesztése
    
 ## 6. Fizikai környezet
 
