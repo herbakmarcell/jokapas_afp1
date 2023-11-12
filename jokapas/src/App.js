@@ -6,20 +6,29 @@ import { protectedRoutes, publicRoutes } from './routes/routes';
 import { useEffect, useState } from 'react';
 import { UserContext } from './contexts/UserContext';
 import SnackbarProvider from 'react-simple-snackbar'
+import axios from 'axios';
 function App() {
   const [isAuthenticated, setAuthenticated] = useState(false)
   const [userId, setUserId] = useState("")
   const value = { userId, setUserId };
   useEffect(() => {
-    const token = localStorage.getItem("token")
-    if(!token){
-      setAuthenticated(false)
-    }
-    else{
-      //TODO: Validálni backenden a tokent, és lekérni a userID-t
+    const token = "asd"
+    axios.get('http://localhost:3001/api/user', { withCredentials: true }).then((response) => {
+      console.log(response);
       setAuthenticated(true)
-      setUserId("1")
-    }
+      setUserId(response.data.user_id)
+    })
+    .catch((error) => {
+      setAuthenticated(false)
+    })
+    // if(!token){
+    //   setAuthenticated(false)
+    // }
+    // else{
+    //   //TODO: Validálni backenden a tokent, és lekérni a userID-t
+    //   setAuthenticated(true)
+    //   setUserId("1")
+    // }
   }, [userId])
   return (
     <UserContext.Provider value={value}>

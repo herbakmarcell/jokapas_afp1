@@ -53,9 +53,7 @@ export class AppController {
 
         response.cookie('jwt', jwt, {httpOnly: true});
 
-        return {
-            message: 'success'
-        };
+        return{message:"success", user_id:user.user_id}
     }
 
     @Get('user')
@@ -69,7 +67,7 @@ export class AppController {
                 throw new UnauthorizedException();
             }
 
-            const user = await this.appService.findOne({id: data['user_id']});
+            const user = await this.appService.findOne({user_id: data['id']});
 
             const {password, ...result} = user;
 

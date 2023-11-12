@@ -4,6 +4,8 @@ import { useNavigate, Link } from 'react-router-dom'
 import { useSnackbar } from 'react-simple-snackbar'
 import { UserContext } from '../../contexts/UserContext'
 import { useContext } from "react";
+import axios from 'axios';
+
 
 export function LoginPage() {
     const correctLogin = {user:"admin", password:"admin"}
@@ -12,20 +14,35 @@ export function LoginPage() {
     const navigate = useNavigate();
     const [openSnackbar, closeSnackbar] = useSnackbar()
     
+    
     const onSubmit = (data) => {
-        //TODO: KICSERÉLNI, HA KÉSZ A BACKEND
-        const fakeToken = "faketoken123"
-        if(correctLogin.user === data.username && correctLogin.password === data.password){
-            console.log("Sikeres bejelentkezés!")
-            localStorage.setItem("token", fakeToken)
-            setUserId("1")
-            navigate("/")
-            //window.location.reload()
+        const user = {username: data.username, password:data.password}
+        axios.post('http://localhost:3001/api/login', user, {withCredentials:true}
+          )
+          .then((response) => {
+            console.log(response);
+            navigate('/')
+            setUserId(response.data.user_id)
             openSnackbar("Sikeres bejelentkezés")
-        }
-        else{
-            console.log("Sikertelen bejelentkezés!")
-        }
+            
+          })
+          .catch((error) => {
+            console.log(error);
+          })
+
+        //TODO: KICSERÉLNI, HA KÉSZ A BACKEND
+        // const fakeToken = "faketoken123"
+        // if(correctLogin.user === data.username && correctLogin.password === data.password){
+        //     console.log("Sikeres bejelentkezés!")
+        //     localStorage.setItem("token", fakeToken)
+        //     setUserId("1")
+        //     navigate("/")
+        //     //window.location.reload()
+        //     openSnackbar("Sikeres bejelentkezés")
+        // }
+        // else{
+        //     console.log("Sikertelen bejelentkezés!")
+        // }
     }
     return(
         <div className="login-container">

@@ -4,14 +4,19 @@ import { CustomLink } from './CustomLink'
 import { LoginPage } from '../../pages/Login/LoginPage'
 import { useContext } from 'react'
 import { UserContext } from '../../contexts/UserContext'
+import axios from 'axios'
 
 export function Navbar() {
     const {userId, setUserId} = useContext(UserContext)
     const navigate = useNavigate();
     function onLogout(){
-        localStorage.removeItem("token")
-        setUserId("")
-        navigate("/")
+        axios.post('http://localhost:3001/api/logout', null, {withCredentials: true})
+        .then((response)=> {
+            console.log(response)
+            setUserId("")
+            navigate("/")
+        })
+        
     }
     return(
         <div className="container">
