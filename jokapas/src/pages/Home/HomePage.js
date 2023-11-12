@@ -12,7 +12,6 @@ export function HomePage() {
             <Link className="home-link" to="/market">
                 Vásárlás megkezdése
             </Link>
-
         </div>
     )
 }

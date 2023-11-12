@@ -1,14 +1,24 @@
 import './registerPage.css'
 import { useForm } from "react-hook-form"
 import { useNavigate, Link } from 'react-router-dom'
+import axios from 'axios';
 
 export function RegisterPage() {
     const {handleSubmit, register, formState: {errors, isValid, isDirty}} = useForm({mode: "onChange"})
     const navigate = useNavigate();
     
     const onSubmit = (data) => {
-        console.log(data)
-        navigate("/")
+        const user = {username: data.username, email:data.email, password:data.password, full_name:"teszt elek"}
+        axios.post('http://localhost:3001/api/register', user
+            
+          )
+          .then((response) => {
+            console.log(response);
+              // Handle data
+          })
+          .catch((error) => {
+            console.log(error);
+          })
     }
     return(
         <div className="register-container">
