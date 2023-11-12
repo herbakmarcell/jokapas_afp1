@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import {JwtModule} from "@nestjs/jwt";
 import { User } from "./user.entity";
 
 @Module({

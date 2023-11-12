@@ -22,9 +22,10 @@ export class AppController {
         const hashedPassword = await bcrypt.hash(password, 12);
 
         const user = await this.appService.create({
-            name,
+            username,
             email,
-            password: hashedPassword
+            password: hashedPassword,
+            full_name
         });
 
         delete user.password;
@@ -34,11 +35,11 @@ export class AppController {
 
     @Post('login')
     async login(
-        @Body('email') email: string,
+        @Body('username') username: string,
         @Body('password') password: string,
         @Res({passthrough: true}) response: Response
     ) {
-        const user = await this.appService.findOne({email});
+        const user = await this.appService.findOne({username});
 
         if (!user) {
             throw new BadRequestException('invalid credentials');
@@ -48,7 +49,7 @@ export class AppController {
             throw new BadRequestException('invalid credentials');
         }
 
-        const jwt = await this.jwtService.signAsync({id: user.id});
+        const jwt = await this.jwtService.signAsync({id: user.user_id});
 
         response.cookie('jwt', jwt, {httpOnly: true});
 
@@ -68,7 +69,7 @@ export class AppController {
                 throw new UnauthorizedException();
             }
 
-            const user = await this.appService.findOne({id: data['id']});
+            const user = await this.appService.findOne({id: data['user_id']});
 
             const {password, ...result} = user;
 
