@@ -157,11 +157,39 @@ Az oldal használatához el kell indítani a webböngészőt, a keresősávjába
 
 A webshop több különböző táblát használ a megfelelő működés érdekében, ezek: 
 
-| Tábla    | Betöltendő funkció                         | Tábla attribútumai                                                         |
-|----------|--------------------------------------------|----------------------------------------------------------------------------|
-| Users    | A regisztrált felhasználók adatait tárolja | userID, username, password, email, full_name, icon, 2FA                           |
-| Products | A feltöltött termékek adatait tárolja      | productID, product_tag, product_name, description, sellerID, isUnavailable |
-| Orders   | A vásárolt termékeket tárolja              | orderID, productID, sellerID, userID, status                               |
+- *users:* Regisztrált felhasználók
+
+| Attribútum | Típus        | Kikötések (ha van)                 | Funkció                                                   |
+|------------|--------------|------------------------------------|-----------------------------------------------------------|
+| user_id    | int(15)      | AUTO INCREMENT, UNSIGNED, NOT NULL | Azonosító szám, a felhasználó egyedi azonosítója          |
+| username   | varchar(25)  | NOT NULL                           | A felhasználó bejelentkezési neve                         |
+| email      | varchar(191) | NOT NULL                           | A felhasználó email címe                                  |
+| password   | varchar(191) | NOT NULL                           | A felhasználó jelszava                                    |
+| full_name  | varchar(191) | NOT NULL                           | A felhasználó teljes neve                                 |
+| icon       | blob         |                                    | A felhasználó profilképe                                  |
+| 2FA        | varchar(100) |                                    | NULL, ha a felhasználó nem használ kétlépcsős azonosítást |
+
+- *products:* A termékek táblája
+
+| Attribútum     | Típus        | Kikötések (ha van)                 | Funkció                                                   |
+|----------------|--------------|------------------------------------|-----------------------------------------------------------|
+| product_id     | int(15)      | AUTO INCREMENT, UNSIGNED, NOT NULL | Azonosító szám, a termék egyedi azonosítója               |
+| product_tag    | varchar(25)  | NOT NULL                           | A termék szűrő neve                                       |
+| product_name   | varchar(191) | NOT NULL                           | A termék neve                                             |
+| description    | TEXT         |                                    | A termék leírása                                          |
+| sellerID       | int(15)      | NOT NULL                           | Az eladó felhasználó azonosítója                          |
+| is_unavailable | tinyint(2)   | NOT NULL                           | Logikai törlés azonosítója                                |
+
+- *orders:* A rendelések táblája
+
+| Attribútum  | Típus        | Kikötések (ha van)                 | Funkció                                                   |
+|-------------|--------------|------------------------------------|-----------------------------------------------------------|
+| order_id    | int(15)      | AUTO INCREMENT, UNSIGNED, NOT NULL | Azonosító szám, a rendelés egyedi azonosítója             |
+| product_id  | int(15)      | NOT NULL                           | A termék azonosítója                                      |
+| seller_id   | int(15)      | NOT NULL                           | Az eladó                                                  |
+| buyer_id    | int(15)      | NOT NULL                           | A vevő azonosítója                                        |
+| status      | varchar(30)  | NOT NULL                           | A rendelés állapota                                       |
+| delivery_id | int(15)      |                                    | A futátszolgálat azonosítója, ha a státsuz megfelelő      |
 
 ## 9. Implementációs terv
 
