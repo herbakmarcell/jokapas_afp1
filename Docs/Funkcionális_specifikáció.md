@@ -12,6 +12,7 @@ Webshopunk egy dinamikus online platform lesz, ahol vásárolhatsz és saját te
 Az eladók saját profiljukon bemutathatják majd magukat és saját készítésű, középkori témájú termékeiket is megoszthatják.
 
 ## 3. Jelenlegi üzleti folyamatok modellje
+Napjainkban a középkori hangulatú online áruházak egyedi és különleges piaci réteget szolgálnak ki. Ezek a webshopok általában olyan termékeket kínálnak, amelyek visszaidézik a középkori idők atmoszféráját, stílusát és hangulatát. Ezek az online áruházak azokra a vásárlókra fókuszálnak, akik érdeklődnek a történelem és a középkor iránt, és szívesen veszik körül magukat olyan tárgyakkal, amelyek ebből az időszakból származnak.
 
 A középkori webshopok ma már egyedi és különleges helyet foglalnak el az online vásárlás világában, ennek okai:
   * Hangulat és stílus: Ezek az áruházak középkori atmoszférát idéző termékeket kínálnak.
@@ -94,6 +95,8 @@ A webshop funkciói:
 
 ## 8. Képernyőtervek
  ![képernyőterv](https://github.com/herbakmarcell/jokapas_afp1/assets/117568964/d74a50b2-857f-4e03-b6c0-1a8da8c0488a)
+ ![kepernyoterv_fooldal](https://github.com/herbakmarcell/jokapas_afp1/assets/117568964/9d433076-73be-42b6-b910-b63259c828dd)
+ ![kepernyoterv_login](https://github.com/herbakmarcell/jokapas_afp1/assets/117568964/43559b59-c2fd-465c-aa01-8cf78f09aef5)
 
 
 ## 9. Forgatókönyvek
