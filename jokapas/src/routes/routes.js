@@ -7,6 +7,7 @@ import { ProfilePage } from "../pages/Profile/ProfilePage";
 import { RegisterPage } from "../pages/Register/RegisterPage";
 import { CartPage } from "../Cart/CartPage";
 import { AdminSuccess } from "../pages/Administration/AdminSuccess";
+import { SingleProduct } from "../pages/SingleProduct/SingleProduct";
 
 export const publicRoutes = [
     {path: "login", page: LoginPage},
@@ -14,7 +15,8 @@ export const publicRoutes = [
     {path: "admin", page: AdminPage},
     {path: "faq", page: FaqPage},
     {path: "/", page: HomePage},
-    {path: "register", page: RegisterPage},    
+    {path: "register", page: RegisterPage},
+    {path: "product/:id", page:SingleProduct}   
 ]
 
 export const protectedRoutes = [

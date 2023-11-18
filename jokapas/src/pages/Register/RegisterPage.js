@@ -1,6 +1,6 @@
 import './registerPage.css'
 import { useForm } from "react-hook-form"
-import { useNavigate, Link } from 'react-router-dom'
+import { useNavigate, Link, Navigate } from 'react-router-dom'
 import axios from 'axios';
 
 export function RegisterPage() {
@@ -10,10 +10,10 @@ export function RegisterPage() {
     const onSubmit = (data) => {
         const user = {username: data.username, email:data.email, password:data.password, full_name:"teszt elek"}
         axios.post('http://localhost:3001/api/register', user
-            
           )
           .then((response) => {
             console.log(response);
+                navigate("/")
               // Handle data
           })
           .catch((error) => {
@@ -31,6 +31,8 @@ export function RegisterPage() {
                     className="register-input" 
                     placeholder="Név"
                     {...register('username', {
+                        minLength: 4,
+                        maxLength: 16,
                         required: 'Ez a mező kötelező'
                     })}
                  />
@@ -59,6 +61,8 @@ export function RegisterPage() {
                     id="password"
                     name='password'
                     {...register('password', {
+                        minLength: 4,
+                        maxLength: 16,
                         required: 'Ez a mező kötelező'
                     })}
                 />

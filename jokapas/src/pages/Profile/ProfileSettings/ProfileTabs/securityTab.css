@@ -1,38 +1,42 @@
-.account-tab-container{
+.security-tab-container{
     display: flex;
     flex-direction: column;
     height: 100%;
     align-items: center;
 }
 
-.account-tab-container .data-field {
+.security-tab-container .data-field {
     margin-bottom: 0px;
 }
 
-.account-tab-container .data-container {
+.security-tab-container .data-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.account-tab-container .type-title{
+.security-tab-container .type-title{
     margin-bottom: 0px;
 }
 
-.account-tab-container .data-types{
+.security-tab-container .data-types{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-.account-tab-container .with-border{
+.security-tab-container .with-border{
     padding-bottom: 20px;
     border-bottom: 1px solid #834333;
 }
 
-.account-tab-container .edit-button{
+.security-tab-container .edit-button{
     margin-left: 10px;
     color: brown;
     font-weight: 500;
+}
+
+.security-tab-container .password-markers{
+    margin-top: 5px;
 }
