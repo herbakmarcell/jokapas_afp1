@@ -3,11 +3,11 @@ import { DeleteTab } from "./DeleteTab";
 import { HistoryTab } from "./HistoryTab";
 import { SecurityTab } from "./SecurityTab";
 
-export function ProfileTabs({activeTab}){
+export function ProfileTabs({activeTab, user}){
     return (
         <>
         {activeTab === 0 && 
-                <AccountTab/>
+                <AccountTab user={user}/>
         }
         {activeTab === 1 && 
             <div>
@@ -16,7 +16,7 @@ export function ProfileTabs({activeTab}){
         }
         {activeTab === 2 && 
             <div>
-                <SecurityTab/>
+                <SecurityTab user={user}/>
             </div>
         }
         {activeTab === 3 && 
