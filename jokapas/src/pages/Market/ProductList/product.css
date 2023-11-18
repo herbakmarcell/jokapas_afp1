@@ -7,12 +7,12 @@
     margin-top: 5px;
 }
 
-.product-img-container{
+.product-container .product-img-container{
     height: 100%;
     margin-left: 20px;
 }
 
-.product-img{
+.product-container .product-img{
     height: 95%;
     border-radius: 15px;
 }
