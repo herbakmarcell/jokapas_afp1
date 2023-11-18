@@ -30,7 +30,7 @@
 
 .profile-body{
     width: 100%;
-    height: 300px;
+    min-height: 300px;
     display: flex;
     border-style: solid;
     border-color: #834333;
@@ -52,8 +52,8 @@
 }
 
 .profile-functions-left{
-    flex-grow: 1;
     border-right: solid 3px #834333;
+    width: 200px;
 }
 
 .profile-functions-right{

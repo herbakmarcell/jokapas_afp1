@@ -1,4 +1,3 @@
-import { TwoFATab } from "./2FATab";
 import { AccountTab } from "./AccountTab";
 import { DeleteTab } from "./DeleteTab";
 import { HistoryTab } from "./HistoryTab";
@@ -21,11 +20,6 @@ export function ProfileTabs({activeTab}){
             </div>
         }
         {activeTab === 3 && 
-            <div>
-                <TwoFATab/>
-            </div>
-        }
-        {activeTab === 4 && 
             <div>
                 <DeleteTab/>
             </div>
