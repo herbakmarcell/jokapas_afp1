@@ -1,0 +1,8 @@
+.product-list-container{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #f1d59a;
+    border-radius: 25px;
+    align-items: center;
+}

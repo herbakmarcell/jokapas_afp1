@@ -2,10 +2,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .market-title{
     display: flex;
     flex-direction: column;
     font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.market-content-container{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    gap: 15px;
 }
