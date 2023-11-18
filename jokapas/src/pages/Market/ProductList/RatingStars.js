@@ -1,7 +1,7 @@
 import "./ratingStars.css"
 export function RatingStars({rating}){
     return(
-        <div>
+        <>
             {(() => {
             const arr = [];
                 for (let i = 0; i < rating; i++) {
@@ -21,6 +21,6 @@ export function RatingStars({rating}){
             return arr;
             })()}
             <span>(50 vélemény)</span>
-        </div>
+        </>
     )
 }
