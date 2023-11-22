@@ -21,7 +21,7 @@ export function AdminPage(){
                     <ListSecond/>
                 </div>
                 <div className='list-container'>
-                    <span className='list-title'>Támodatás típusa:</span>
+                    <span className='list-title'>Támogatás típusa:</span>
                     <ListThird/>
                 </div>
                 
