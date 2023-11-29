@@ -11,6 +11,8 @@ export class Product{
     desc: string;
     @Column()
     tag: string;
+    @Column()
+    image: Blob;
     
 
 }
