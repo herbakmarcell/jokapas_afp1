@@ -16,10 +16,10 @@ export function FilterPanel() {
                 className="filter-search"
             />
             <div className="category-container">
-                <Category text={"Cigánypecsenye"} id={"cigany"}/>
-                <Category text={"Cigánypecsenye"} id={"cigany"}/>
-                <Category text={"Cigánypecsenye"} id={"cigany"}/>
-                <Category text={"Cigánypecsenye"} id={"cigany"}/>
+                <Category text={"Mezőgazdasági"} id={"1"}/>
+                <Category text={"Konyhai"} id={"2"}/>
+                <Category text={"Kertészeti"} id={"3"}/>
+                <Category text={"Hadászati"} id={"4"}/>
             </div>
         </div>
     )

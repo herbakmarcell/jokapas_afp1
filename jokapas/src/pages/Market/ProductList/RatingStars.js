@@ -6,7 +6,7 @@ export function RatingStars({rating}){
             const arr = [];
                 for (let i = 0; i < rating; i++) {
                     arr.push(
-                        <img className="star-img" src="starFull.png"/>
+                        <img className="star-img" src="starFull.png" key={i}/>
                     );
                 }
             return arr;
@@ -15,7 +15,7 @@ export function RatingStars({rating}){
             const arr = [];
                 for (let i = 0; i < 5-rating; i++) {
                     arr.push(
-                        <img className="star-img" src="starEmpty.png"/>
+                        <img className="star-img" src="starEmpty.png" key={i}/>
                     );
                 }
             return arr;
