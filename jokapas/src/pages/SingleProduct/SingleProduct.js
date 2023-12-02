@@ -1,12 +1,13 @@
 import { RatingStars } from "../Market/ProductList/RatingStars";
-import "./singleProduct.css"
 import { useParams } from "react-router-dom";
+import "./singleProduct.css"
+import { Details } from "./Details";
 export function SingleProduct(){
     const {id} = useParams();
     return(
         <div className="single-product-container">
             <div className="product-title-container">
-                Termék címe
+                Használt lapát
             </div>
             <div className="product-content-container">
                 <div className="product-container-div">
@@ -14,7 +15,7 @@ export function SingleProduct(){
                         <img className="product-img" src="shovel.png" alt="product-img"/>
                         </div>
                         
-                    <div className="product-details">Részletek</div>
+                    <Details/>
                 </div>
                 <div className="user-div">
                     <img className="profile-img" src="avatar.jpg" alt="profile-img"/>
