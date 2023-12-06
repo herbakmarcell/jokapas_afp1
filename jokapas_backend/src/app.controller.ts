@@ -87,9 +87,26 @@ export class AppController {
         }
     }
 
-    @Post('GetImage')
-    @UseInterceptors(FileInterceptor('file'))
-    uploadFile(@UploadedFile() file: Express.Multer.File) {
-    console.log(file);
+
+    @Get('productcount')
+    async productcount(@Req() request: Request) {
+        try {
+            const cookie = request.cookies['jwt'];
+
+            const data = await this.jwtService.verifyAsync(cookie);
+
+            if (!data) {
+                throw new UnauthorizedException();
+            }
+
+            const products = await this.appService.findProduct({product_id: data['product_id']});
+            const productCount = products.productcount;
+            return productCount;
+
+            
+        } catch (e) {
+            throw new UnauthorizedException();
+        }
     }
+    
 }

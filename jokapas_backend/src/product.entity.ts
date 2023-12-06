@@ -13,6 +13,8 @@ export class Product{
     tag: string;
     @Column()
     image: Blob;
+    @Column()
+    productcount : number;
     
 
 }
