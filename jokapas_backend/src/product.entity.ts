@@ -8,11 +8,9 @@ export class Product{
     @Column()
     name: string;
     @Column()
-    desc: string;
+    description: string;
     @Column()
     tag: string;
-    @Column()
-    image: Blob;
     @Column()
     productcount : number;
     
