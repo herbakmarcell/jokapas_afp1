@@ -91,7 +91,7 @@ export class AppController {
     @Get('productcount')
     async productcount(@Req() request: Request) {
         try {
-            const cookie = request.cookies['jwt'];
+            const {cookie} = request.cookies['jwt'];
 
             const data = await this.jwtService.verifyAsync(cookie);
 
@@ -114,7 +114,7 @@ export class AppController {
     @Get('productdesc')
     async productdesc(@Req() request: Request) {
         try {
-            const cookie = request.cookies['jwt'];
+            const {cookie} = request.cookies['jwt'];
 
             const data = await this.jwtService.verifyAsync(cookie);
 
@@ -135,7 +135,7 @@ export class AppController {
     @Get('producttag')
     async producttag(@Req() request: Request) {
         try {
-            const cookie = request.cookies['jwt'];
+            const {cookie} = request.cookies['jwt'];
 
             const data = await this.jwtService.verifyAsync(cookie);
 
@@ -146,6 +146,28 @@ export class AppController {
             const products = await this.appService.findProduct({product_id: data['product_id']});
             const producttag = products.tag;
             return producttag;
+
+            
+        } catch (e) {
+            throw new UnauthorizedException();
+        }
+    }
+
+
+    @Get('productname')
+    async productname(@Req() request: Request) {
+        try {
+            const {cookie} = request.cookies['jwt'];
+
+            const data = await this.jwtService.verifyAsync(cookie);
+
+            if (!data) {
+                throw new UnauthorizedException();
+            }
+
+            const products = await this.appService.findProduct({product_id: data['product_id']});
+            const productname = products.name;
+            return productname;
 
             
         } catch (e) {
