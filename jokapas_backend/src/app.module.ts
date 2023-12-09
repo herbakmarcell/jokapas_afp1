@@ -4,6 +4,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import {JwtModule} from "@nestjs/jwt";
 import { User } from "./user.entity";
+import { Product } from "./product.entity";
 
 @Module({
   imports: [
@@ -14,15 +15,21 @@ import { User } from "./user.entity";
       username: 'root',
       password: '',
       database: 'jokapas',
-      entities: [User],
+      entities: [User, Product],
       synchronize: true,
     }),
     TypeOrmModule.forFeature([User]),
     JwtModule.register({
         secret: 'secret',
         signOptions: {expiresIn: '1d'}
+    }),
+    TypeOrmModule.forFeature([Product]),
+    JwtModule.register({
+        secret: 'secret',
+        signOptions: {expiresIn: '1d'}
     })
   ],
+  
   
   controllers: [AppController],
   providers: [AppService],

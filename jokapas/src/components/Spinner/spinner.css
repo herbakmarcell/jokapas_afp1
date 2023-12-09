@@ -1,0 +1,17 @@
+.wheel{
+    animation: spin 6s linear infinite;
+}
+
+.spinner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
