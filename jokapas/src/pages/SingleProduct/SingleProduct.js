@@ -7,13 +7,13 @@ export function SingleProduct(){
     return(
         <div className="single-product-container">
             <div className="product-title-container">
-                Használt lapát
+                <h2>Használt lapát</h2>
             </div>
             <div className="product-content-container">
                 <div className="product-container-div">
                     <div className="product-img-container">
                         <img className="product-img" src="shovel.png" alt="product-img"/>
-                        </div>
+                    </div>
                         
                     <Details/>
                 </div>

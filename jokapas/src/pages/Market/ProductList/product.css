@@ -7,6 +7,10 @@
     margin-top: 5px;
 }
 
+.product-container:last-child{
+    border-bottom: none;
+}
+
 .product-container .product-img-container{
     height: 100%;
     margin-left: 20px;

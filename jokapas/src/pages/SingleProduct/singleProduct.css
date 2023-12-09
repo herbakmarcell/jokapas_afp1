@@ -43,14 +43,18 @@
     border-radius: 15px;
     display: flex;
     flex-grow: 1;
+    align-items: center;
 }
 
 .single-product-container .profile-img{
+    margin-left: 15px;
     height: 70%;
     border-radius: 50%;
 }
 
 .single-product-container .profile-data{
+    margin-left: 15px;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
 }
@@ -58,4 +62,9 @@
 .single-product-container .product-container-div{
     width: 100%;
     flex-grow: 3;
+}
+
+.single-product-container .product-title-container{
+    width: 70%;
+    text-align: left;
 }

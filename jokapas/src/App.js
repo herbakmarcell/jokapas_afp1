@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react';
 import { UserContext } from './contexts/UserContext';
 import SnackbarProvider from 'react-simple-snackbar'
 import axios from 'axios';
+import { Footer } from './components/Footer/Footer';
 function App() {
   const [isAuthenticated, setAuthenticated] = useState(false)
   const [userId, setUserId] = useState("")
@@ -64,6 +65,7 @@ function App() {
             )
           })}
         </Routes>
+        <Footer/>
       </SnackbarProvider>
     </UserContext.Provider>
   );
