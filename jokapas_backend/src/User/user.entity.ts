@@ -13,7 +13,5 @@ export class User{
     password: string;
     @Column()
     full_name: string;
-    @Column()
-    twofa: string;
 
 }
