@@ -1,10 +1,11 @@
-import {BadRequestException, Body, Controller, Get, Post, Req, Res, UnauthorizedException} from '@nestjs/common';
+import {BadRequestException, Body, Controller, Get, Param, Patch, Post, Put, Req, Res, UnauthorizedException} from '@nestjs/common';
 import {AppService} from '../app.service';
 import * as bcrypt from 'bcrypt';
 import {JwtService} from "@nestjs/jwt";
 import {Response, Request} from 'express';
 import { Express } from 'express';
 import { UserService } from './user.service';
+import { User } from './user.entity';
 
 @Controller('api')
 export class UserController {
@@ -84,6 +85,11 @@ export class UserController {
         } catch (e) {
             throw new UnauthorizedException();
         }
+    }
+
+    @Patch('user/edit/:id')
+    async editUser(@Param('id') id: number, @Body() user:User){
+        return this.userService.editUser(id, user)
     }
 
     @Post('logout')
