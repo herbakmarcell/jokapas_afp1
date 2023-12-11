@@ -5,8 +5,10 @@ import { AppService } from './app.service';
 import {JwtModule} from "@nestjs/jwt";
 import { User } from "./User/user.entity";
 import { Product } from './Product/product.entity';
+import { Order } from './Order/order.entity';
 import { ProductModule } from './Product/product.module';
 import { UserModule } from './User/user.module';
+import { OrderModule } from './Order/order.module';
 
 @Module({
   imports: [
@@ -17,12 +19,13 @@ import { UserModule } from './User/user.module';
       username: 'root',
       password: '',
       database: 'jokapas',
-      entities: [User, Product],
+      entities: [User, Product, Order],
       synchronize: true,
       
     }),
     ProductModule,
-    UserModule
+    UserModule,
+    OrderModule
 
   ],
   controllers: [AppController],
