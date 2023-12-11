@@ -1,26 +1,24 @@
 import "./details.css"
-export function Details() {
+export function Details({product}) {
     return (
         <div className="product-details-container">
             <h2 className="detail-title">Tulajdonságok</h2>
             <div className="product-details">
                 <div className="detail-column">
-                    <span className="detail">Ár: 30000 Ft</span>
-                    <span className="detail">Állapot: Használt</span>
+                    <span className="detail">Ár: {product.price} Ft</span>
+                    <span className="detail">Állapot: {product.status}</span>
                 </div>
                 <div className="detail-column">
-                    <span className="detail">Régió: Nógrád vármegye</span>
-                    <span className="detail">Gyártási év: 2021</span>
+                    <span className="detail">Régió: {product.region}</span>
+                    <span className="detail">Gyártási év: {product.year}</span>
                 </div>
             </div>
             <h2 className="detail-title">Leírás</h2>
             <div className="description">
-                Eladásra kínálok egy strapabíró használt lapátot, mely ideális választás kerti munkákhoz vagy általános talajmunkákhoz. 
-                Az acél lapát lapja rendkívül tartós és még mindig kiváló állapotban van. 
-                A fás nyél megfelelő fogást biztosít, és könnyű vele dolgozni.
+                {product.description}
             </div>
             <div className="detail-footer">
-                <span>Feladás dátuma: 2023.12.02.</span>
+                <span>Feladás dátuma: {product.publish_date}</span>
                 <button className="cart-button">Kosárba rakás</button>
             </div>
         </div>

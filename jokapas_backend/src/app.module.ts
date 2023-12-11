@@ -19,11 +19,7 @@ import { UserModule } from './User/user.module';
       database: 'jokapas',
       entities: [User, Product],
       synchronize: true,
-    }),
-    TypeOrmModule.forFeature([User]),
-    JwtModule.register({
-        secret: 'secret',
-        signOptions: {expiresIn: '1d'}
+      
     }),
     ProductModule,
     UserModule
