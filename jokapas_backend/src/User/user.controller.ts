@@ -21,6 +21,13 @@ export class UserController {
         @Body('password') password: string,
         @Body('full_name') full_name: string
     ) {
+
+        if(await this.userService.findOne({username})){
+            throw new BadRequestException('Username already exists')
+        }
+        if(await this.userService.findByEmail(email)){
+            throw new BadRequestException('Email is taken')
+        }
         const hashedPassword = await bcrypt.hash(password, 12);
 
         const user = await this.userService.create({
