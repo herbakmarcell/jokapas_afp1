@@ -11,7 +11,7 @@ export class SupportController {
     }
 
     @Get('tickets')
-    async tickets(@Req() request: Request){
+    async getTickets(@Req() request: Request){
         return this.supportService.findAll()
     }
 
