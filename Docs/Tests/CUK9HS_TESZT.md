@@ -33,3 +33,6 @@ A következő tesztelés során a többi funkció kerül vizsgálatra, tesztelé
 | Menüpont tesztelés | 2023.12.12. | Ügyfélszolgálat megjelenítése | A gombok és beviteli mezők megjelennek, de adatot nem tudunk felvinni az adatbázisba | Hibát találtam |
 | Menüpont tesztelés | 2023.12.12. | Rendelések megjelenítése | Nem jelennek meg megfelelően a felhasználó rendelései | Hibát találtam |
 | Menüpont tesztelés | 2023.12.12. | Profil megjelenítése | A profil oldal megjelenik az adatbázisban szereplő adatokkal, személyes adatokat azonban nem lehet szerkeszteni | Hibát találtam |
+| Termék | 2023.12.12. | Egy darab termék megjelenítése | Az oldala a terméknek megjelenik minden adatával együtt | Hibát nem találtam |
+| Frontend | 2023.12.12. | A weboldal megjelenésének vizsgálata | A weboldal felépítése elfogadható, átlátható. Néhány UI funkció nem működött megfelelően. | Hibát találtam |
+| Backend | 2023.12.12. | A backendben megírt kódok megfelelő működése | A backend kódjainak javarésze nem működött megfelelően. | Hibát találtam |
