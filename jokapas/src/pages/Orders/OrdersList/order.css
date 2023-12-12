@@ -11,12 +11,12 @@
     border-bottom: none;
 }
 
-.order-container .product-img-container{
+.order-container .order-img-container{
     height: 100%;
     margin-left: 20px;
 }
 
-.order-container .product-img{
+.order-container .order-img{
     height: 95%;
     border-radius: 15px;
 }
