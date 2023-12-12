@@ -11,7 +11,7 @@
     border:solid 1px brown;
 }
 
-.order-details-container .product-details{
+.order-details-container .order-details{
     display: flex;
     flex-direction: row;
 }
@@ -39,14 +39,14 @@
     align-items: center;
 }
 
-.order-details-container .cart-button{
+.order-details-container .order-button{
     min-height: 40px;
     border-radius: 20px;
     background-color: rgba(189, 106, 23, 0.449);
     font-weight: 700;
 }
 
-.order-details-container .cart-button:hover{
+.order-details-container .order-button:hover{
     cursor: pointer;
 }
 

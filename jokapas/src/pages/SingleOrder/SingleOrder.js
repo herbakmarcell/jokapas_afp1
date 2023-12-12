@@ -4,7 +4,7 @@ import "./singleOrder.css"
 import { Details } from "./Details";
 import axios from 'axios';
 import { useEffect,useState } from "react"
-export function SingleProduct(){
+export function SingleOrder(){
     const {id} = useParams();
     const [order, setOrder] = useState([])
     const [loading, setLoading] = useState(true);

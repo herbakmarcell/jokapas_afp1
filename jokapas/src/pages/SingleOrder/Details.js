@@ -1,9 +1,9 @@
 import "./details.css"
-export function Details({product}) {
+export function Details({order}) {
     return (
-        <div className="product-details-container">
+        <div className="order-details-container">
             <h2 className="detail-title">Tulajdonságok</h2>
-            <div className="product-details">
+            <div className="order-details">
                 <div className="detail-column">
                     <span className="detail">Ár: {order.price} Ft</span>
                     <span className="detail">Állapot: {order.status}</span>
@@ -15,11 +15,10 @@ export function Details({product}) {
             </div>
             <h2 className="detail-title">Leírás</h2>
             <div className="description">
-                {product.description}
+                {order.description}
             </div>
             <div className="detail-footer">
                 <span>Feladás dátuma: {order.publish_date}</span>
-                <button className="cart-button">Kosárba rakás</button>
             </div>
         </div>
     )
