@@ -14,3 +14,4 @@ Ebben a dokumentumban lesz felsorolva az elvégzett tesztek elvárásai és ered
 | :---: | --- | --- | --- | --- |
 | Adatbázis | 2023.11.14. | Adatbázis működésének ellenőrzése. | A táblák és a weboldal sikeresen kapcsolódnak, az adatbázis adatok tárolására kész | Hibát nem találtam |
 | Bejelentkezés | 2023.11.14. | Belépés már létrehozott fiókkal | A fiókkal sikeresen be tudtam lépni a felületre | Hibát nem találtam |
+| Regisztráció | 2023.11.14. | Regisztrálás a weboldalra | Kért adatok megadása után sikeresen tudtam regisztrálni, és többször lehet beregisztrálni ugyanazokkal az adatokkal | Hibát találtam |
