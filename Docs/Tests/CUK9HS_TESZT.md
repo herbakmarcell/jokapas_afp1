@@ -21,3 +21,9 @@ Ebben a dokumentumban lesz felsorolva az elvégzett tesztek elvárásai és ered
 Az alfa tesztelés során a funkciók rendeltetésszerű használat mellett megfelelően működtek, azonban validáció hiányában hibás eredményeket kaptam, ami a további teszteknél javítva lesz.
 
 A következő tesztelés során a többi funkció kerül vizsgálatra, tesztelésre.
+
+## Béta teszt
+
+| Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- |
+| Regisztráció | 2023.12.12. | Regisztrálás a weboldalra | A gomb megnyomása után most már nem engedi a felhasználót ugyanolyan meglévő adatokkal regisztrálni | Hibát nem találtam |
