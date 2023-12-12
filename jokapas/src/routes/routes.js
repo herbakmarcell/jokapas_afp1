@@ -8,6 +8,7 @@ import { RegisterPage } from "../pages/Register/RegisterPage";
 import { CartPage } from "../pages/Cart/CartPage";
 import { AdminSuccess } from "../pages/Administration/AdminSuccess";
 import { SingleProduct } from "../pages/SingleProduct/SingleProduct";
+import { OrdersPage } from "../pages/Orders/OrdersPage";
 
 export const publicRoutes = [
     {path: "login", page: LoginPage},
@@ -17,11 +18,12 @@ export const publicRoutes = [
     {path: "/", page: HomePage},
     {path: "register", page: RegisterPage},
     {path: "product/:id", page:SingleProduct},
-    {path: "cart", page: CartPage},
 
 ]
 
 export const protectedRoutes = [
     {path: "profile", page: ProfilePage},
     {path: "adminsuccess", page: AdminSuccess},
+    {path: "cart", page: CartPage},
+    {path: "orders", page: OrdersPage},
 ]

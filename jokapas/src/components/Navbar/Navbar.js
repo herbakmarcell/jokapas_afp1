@@ -34,8 +34,8 @@ export function Navbar() {
                             GYIK
                         </CustomLink>
                         {userId ?
-                        <CustomLink to ="/cart">
-                            Kosár
+                        <CustomLink to ="/orders">
+                            Rendelések
                         </CustomLink>
                         :
                         ""
