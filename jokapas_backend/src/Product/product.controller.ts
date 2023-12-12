@@ -12,11 +12,16 @@ export class ProductController {
 
     @Get('products')
     async products(@Req() request: Request){
-        return this.productService.findAll()
+        return this.productService.findAll();
     }
 
     @Get('products/:id')
     async getProduct(@Param('id') id: number) {
         return this.productService.findOne(id);
+    }
+
+    @Get('product/:tag')
+    async productsByTag(@Param('tag') tag: string, @Req() request: Request){
+        return this.productService.findAllByTag(tag);
     }
 }

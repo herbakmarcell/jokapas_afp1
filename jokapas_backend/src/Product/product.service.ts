@@ -1,6 +1,6 @@
 import {Injectable} from '@nestjs/common';
 import {InjectRepository} from "@nestjs/typeorm";
-import {Repository} from "typeorm";
+import {Any, Repository} from "typeorm";
 import { Product } from './product.entity';
 import { Observable, from } from 'rxjs';
 
@@ -16,5 +16,9 @@ export class ProductService {
 
     async findOne(id: number): Promise<Product> {
         return this.productRepository.findOne({where: {id: id}});
+    }
+
+    async findAllByTag(tagger: string): Promise<Product[]> {
+        return this.productRepository.find( {where: {tag:tagger}});
     }
 }
