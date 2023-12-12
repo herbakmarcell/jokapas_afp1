@@ -27,3 +27,5 @@ A következő tesztelés során a többi funkció kerül vizsgálatra, tesztelé
 | Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
 | :---: | --- | --- | --- | --- |
 | Regisztráció | 2023.12.12. | Regisztrálás a weboldalra | A gomb megnyomása után most már nem engedi a felhasználót ugyanolyan meglévő adatokkal regisztrálni | Hibát nem találtam |
+| Autentikáció | 2023.12.12. | Csak felhasználói fiók azonosítása után tudjuk a profilt megtekinteni | Már csak bejelentkezve működik | Hibát nem találtam |
+| Navigációs sáv | 2023.12.12. | A menüpontokon kattintva az adott oldalra átirányít | A megfelelő oldalakra irányít át | Hibát nem találtam |
