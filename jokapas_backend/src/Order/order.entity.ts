@@ -10,9 +10,25 @@ export class Order{
     @Column()
     seller_id: number;
     @Column()
-    status: string;
+    name: string;
+    @Column()
+    tag: string;
+    @Column()
+    price: number;
+    @Column()
+    itemstatus: string;
+    @Column()
+    region: string;
+    @Column()
+    year: number;
+    @Column()
+    description: string;
+    @CreateDateColumn()
+    publish_date: Date;
     @CreateDateColumn()
     order_date: Date;
+    @Column()
+    status: string;
     
 
 }
