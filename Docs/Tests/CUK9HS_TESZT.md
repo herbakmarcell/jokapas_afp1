@@ -36,6 +36,7 @@ A következő tesztelés során a többi funkció kerül vizsgálatra, tesztelé
 | Termék | 2023.12.12. | Egy darab termék megjelenítése | Az oldala a terméknek megjelenik minden adatával együtt | Hibát nem találtam |
 | Frontend | 2023.12.12. | A weboldal megjelenésének vizsgálata | A weboldal felépítése elfogadható, átlátható. Néhány UI funkció nem működött megfelelően. | Hibát találtam |
 | Backend | 2023.12.12. | A backendben megírt kódok megfelelő működése | A backend kódjainak javarésze nem működött megfelelően. | Hibát találtam |
+
 Az Alfa tesztben hibásan működő regisztráció és autentikáció prioritást élvezett, így már javításra került a béta tesztelésre.
 
 A Béta teszt elkészült, a letesztelt funkciók többségében hibásan működtek a weboldalon, így sürgős javítás szükséges mind Front- és Backend-en. 
