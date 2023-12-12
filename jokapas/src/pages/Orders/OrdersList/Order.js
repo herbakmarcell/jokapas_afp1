@@ -14,7 +14,7 @@ export function Order({order}){
                 </p>
             </div>
             <div className="order-buy-container">
-                <h3>{product.price} Krajcár</h3>
+                <h3>{order.price} Krajcár</h3>
             </div>
         </div>
     )

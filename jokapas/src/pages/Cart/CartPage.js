@@ -7,7 +7,6 @@ export function CartPage(){
             <div className='cart-title'>
                 Kosár
                 
-                
             </div>
             <div className='cart-content-container'>
                     <CartList/>
