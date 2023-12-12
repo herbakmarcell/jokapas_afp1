@@ -50,10 +50,10 @@ A Kézifék Entertaiment Inc. azt kapta megbízásul, hogy készítsen egy köz�
    *   10.30. Funkcionális specifikáció elkészítése
    *   11.05. Rendszerterv elkészítése
    *   11.14. Bejelentkező prototípusoldal elkészítése
+   *   11.14. Alpha tesztelések megkezdése
    *   11.15. I. Sprint Prototípus prezentálása
-   *   11.29. Alpha tesztelések megkezdése
-   *   12.12. Utolsó simítások és tesztelések
-   *   12.13. II. Sprint végső prototípus bemutatása
+   *   12.12. Utolsó simítások és Béta tesztelések megkezdése
+   *   12.13. II. Sprint végső prototípus bemutatása és végleges tesztelések
    
 ## 3. Üzleti folyamatok modellje
 
