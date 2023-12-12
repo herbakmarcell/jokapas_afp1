@@ -1,5 +1,5 @@
 # Tesztjegyzőkönyv
-## Tesztelő: Herbák Marcell
+## Tesztelő: Fodor Győző Benedek
 ## Utolsó módosítás: 2023. 12. 12.
 
 Operációs rendszer: Windows 10
@@ -44,8 +44,3 @@ A Béta teszt elkészült, a letesztelt funkciók többségében hibásan műkö
 A végleges tesztelésnél prioritást élvez a Béta teszt során még hibásnak titulált elemek, majd újra ellenőrzésre kerül az összes eddigi ellenőrzött funkció.
 
 ## Végleges teszt
-
-
-
-
-

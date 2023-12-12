@@ -78,16 +78,11 @@ A weboldal tulajdonságai tartalmazzák:
 -   Bejelentkezés
 -   Termékek eladása
 -   Termékek megvásárlása
--   Licitálási lehetőség
--   Beszélgetés az eladóval/vásárlóval
 -   Termékekre való szűrés
 -   Képek és termékleírások
 -   Visszajelzések és értékelések
 -   Ügyfélszolgálat és rendeléskezelés
--   Kuponok és Kedvezmények
--   Készpénz és online fizetési lehetőségek
 -   Használati útmutató
--   Beszédfelismerés
 -   Gyors és hatékony keresőfunkció
 -   Rendeléskövetés
 
@@ -103,16 +98,11 @@ A weboldal tulajdonságai tartalmazzák:
 | K6  | Felhasználókezelés | Bejelentkezés  | Egy már létrejött felhasználó bejelentkeztetése. |
 | K7  | Felhasználókezelés | Profilkezelés  | Egy már létrejött felhasználó profiljának szerkesztése. |
 | K8  | Keresőfunkció | Szűrés  | Egy termék bizonyos tulajdonságaira való szűrés, a gyorsabb és hatékonyabb keresés érdekében. |
-| K9  | Keresőfunkció | Beszédfelismerés | Hang alapú beszédfelismerő keresési lehetőség. |
-| K10  | Vásárlás/eladás | Fizetési mód  | Készpénzes, utánvétel, online fizetési módok, lehetőségek. |
-| K11  | Vásárlás/eladás | Licitálás  | A vásárló licitálhat egy termékre, az eladó licitre kínálhatja eladni kívánt termékeit. |
-| K12  | Vásárlás/eladás | Beszélgetés  | A vásárló/eladó beszélgetést folytathat az adott termékről egymás között. |
-| K13  | Kínálat | Értékelés | Visszajelzés az adott termékről és eladóról. |
-| K14  | Kínálat | Termékleírás | Egy adott termékről képek, leírás az állapotáról. |
-| K15  | Kedvezmények | Kuponok | Ideiglenesen bizonyos termékek olcsóbban vásárolhatók. |
-| K16  | Ügyintézés | Ügyfélszolgálat | Probléma esetény segítséget nyújt egy munkatársunk. |
-| K17  | Ügyintézés | Rendeléskövetés | Egy adott termék megvásárlása után való állapotkövetés. |
-| K18  | Használati útmutató | GYIK | Gyakori kérdések a webshop működésével kapcsolatban. |
+| K9  | Kínálat | Értékelés | Visszajelzés az adott termékről és eladóról. |
+| K10  | Kínálat | Termékleírás | Egy adott termékről képek, leírás az állapotáról. |
+| K11  | Ügyintézés | Ügyfélszolgálat | Probléma esetény segítséget nyújt egy munkatársunk. |
+| K12  | Ügyintézés | Rendeléskövetés | Egy adott termék megvásárlása után való állapotkövetés. |
+| K13  | Használati útmutató | GYIK | Gyakori kérdések a webshop működésével kapcsolatban. |
 
 ## 7. Fogalomtár
 
