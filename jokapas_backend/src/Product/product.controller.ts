@@ -1,4 +1,4 @@
-import {BadRequestException, Body, Controller, Get, Param, Post, Req, Res, UnauthorizedException} from '@nestjs/common';
+import {BadRequestException, Body, Controller, Get, Param, Post, Query, Req, Res, UnauthorizedException} from '@nestjs/common';
 import {Response, Request} from 'express';
 import { Express } from 'express';
 import { ProductService } from './product.service';
@@ -20,8 +20,20 @@ export class ProductController {
         return this.productService.findOne(id);
     }
 
-    @Get('product/:tag')
-    async productsByTag(@Param('tag') tag: string, @Req() request: Request){
-        return this.productService.findAllByTag(tag);
-    }
+    // @Get('product/gettag?')
+    // async productsByTag(@Query('tags') tags: string[]){
+    //     console.log(tags)
+
+    //     const data = await this.productService.findAllByTag();
+    //     let finalArr = []
+    //     data.forEach((value,index) => {
+    //         tags.forEach((tag,i) => {
+    //             if(value.tag == tag){
+    //                 finalArr.push(value)
+    //             }
+    //         })
+    //     })
+    //     console.log(data)
+    //     return finalArr
+    // }
 }

@@ -23,7 +23,7 @@ export class UserController {
         @Body('full_name') full_name: string
     ) {
 
-        if(await this.userService.findOne({username})){
+        if(await this.userService.findByUsername(username)){
             throw new BadRequestException('Username already exists')
         }
         if(await this.userService.findByEmail(email)){
