@@ -8,7 +8,11 @@ export class Order{
     @Column()
     buyer_id: number;
     @Column()
+    buyer_name: string;
+    @Column()
     seller_id: number;
+    @Column()
+    seller_name: string;
     @Column()
     name: string;
     @Column()
