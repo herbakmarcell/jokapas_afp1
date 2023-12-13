@@ -30,7 +30,7 @@ export function SingleProduct(){
                 <div className="product-content-container">
                     <div className="product-container-div">
                         <div className="product-img-container">
-                            <img className="product-img" src="shovel.png" alt="product-img"/>
+                            <img className="product-img" src="kes.png" alt="product-img"/>
                         </div>
                             
                         <Details product={product}/>

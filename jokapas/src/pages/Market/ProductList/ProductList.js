@@ -19,9 +19,11 @@ export function ProductList(){
     return(
         <div className="product-list-container">
             <h2>Termék lista</h2>
+            
             {loading ? (<p>loading</p>) : 
             (
                 productList.map((product) => (
+                    
                     <Product product={product}/>
                 ))
             )

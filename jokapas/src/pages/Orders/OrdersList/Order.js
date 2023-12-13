@@ -9,7 +9,7 @@ export function Order({order}){
             </div>
             <div className="order-data-container">
                 <Link to={'/order/' + order.id}>{order.name}</Link>
-                <span>Teszt Elek <RatingStars rating={3}/></span>
+                <span>{order.sellername} <RatingStars rating={3}/></span>
                 <p className="order-description">{order.description}
                 </p>
             </div>
