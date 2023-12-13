@@ -21,3 +21,25 @@ Ebben a dokumentumban lesz felsorolva az elvégzett tesztek elvárásai és ered
 Az alfa tesztelés során a funkciók rendeltetésszerű használat mellett megfelelően működtek, azonban validáció hiányában hibás eredményeket kaptam, ami a további teszteknél javítva lesz.
 
 A következő tesztelés során a többi funkció kerül vizsgálatra, tesztelésre.
+
+
+## Béta teszt
+
+| Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- |
+| Regisztráció | 2023.12.13. | Regisztrálás a weboldalra | A gomb megnyomása után most már nem engedi a felhasználót ugyanolyan meglévő adatokkal regisztrálni | Hibát nem találtam |
+| Autentikáció | 2023.12.13. | Csak felhasználói fiók azonosítása után tudjuk a profilt megtekinteni | Már csak bejelentkezve működik | Hibát nem találtam |
+| Navigációs sáv | 2023.12.13. | A menüpontokon kattintva az adott oldalra átirányít | A megfelelő oldalakra irányít át | Hibát nem találtam |
+| Menüpont tesztelés | 2023.12.13. | A kínálat oldalon a termékek kilistázása | A termékeket adatait sikeresen lekérjük az adatbázisból | Hibát nem találtam |
+| Menüpont tesztelés | 2023.12.13. | Ügyfélszolgálat megjelenítése | A gombok és beviteli mezők megjelennek, de adatot nem tudunk felvinni az adatbázisba | Hibát találtam |
+| Menüpont tesztelés | 2023.12.13. | Rendelések megjelenítése | Nem jelennek meg megfelelően a felhasználó rendelései | Hibát találtam |
+| Menüpont tesztelés | 2023.12.13. | Profil megjelenítése | A profil oldal megjelenik az adatbázisban szereplő adatokkal, személyes adatokat azonban nem lehet szerkeszteni | Hibát találtam |
+| Termék | 2023.12.13. | Egy darab termék megjelenítése | Az oldala a terméknek megjelenik minden adatával együtt | Hibát nem találtam |
+| Frontend | 2023.12.13. | A weboldal megjelenésének vizsgálata | A weboldal felépítése elfogadható, átlátható. Néhány UI funkció nem működött megfelelően. | Hibát találtam |
+| Backend | 2023.12.13. | A backendben megírt kódok megfelelő működése | A backend kódjainak javarésze nem működött megfelelően. | Hibát találtam |
+
+Az Alfa tesztben hibásan működő regisztráció és autentikáció prioritást élvezett, így már javításra került a béta tesztelésre.
+
+A Béta teszt elkészült, a letesztelt funkciók többségében hibásan működtek a weboldalon, így sürgős javítás szükséges mind Front- és Backend-en. 
+
+A végleges tesztelésnél prioritást élvez a Béta teszt során még hibásnak titulált elemek, majd újra ellenőrzésre kerül az összes eddigi ellenőrzött funkció.
