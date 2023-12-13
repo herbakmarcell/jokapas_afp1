@@ -44,3 +44,16 @@ A Béta teszt elkészült, a letesztelt funkciók többségében hibásan műkö
 A végleges tesztelésnél prioritást élvez a Béta teszt során még hibásnak titulált elemek, majd újra ellenőrzésre kerül az összes eddigi ellenőrzött funkció.
 
 ## Végleges teszt
+
+| Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- |
+| Adatbázis | 2023.12.13. | Adatbázis működésének ellenőrzése. | A tábla-weboldal kapcsolat működik. Az adatbázis képes az adatok tárolására. | Hibát nem találtam |
+| Bejelentkezés | 2023.12.13. | Belépés már létrehozott fiókkal | A fiókommal sikerült belépnem a weboldalra. | Hibát nem találtam |
+| Regisztráció | 2023.12.13. | Regisztrálás a weboldalra |A szükséges adatokkal sikerült regisztrálnom, és újra regisztrálni is lehetett. | Hibát nem találtam |
+| Autentikáció | 2023.12.13. | Csak felhasználói fiók azonosítása után tudjuk a profilt megtekinteni | Bejelentkezés után működik, bejelentkezés hiányában nem lehetséges. | Hibát nem találtam |
+| Navigációs sáv | 2023.12.13. | A menüpontokon kattintva az adott oldalra átirányít | Az átirányítások megfelelően működik. | Hibát nem találtam |
+| Menüpont tesztelés | 2023.12.13. | Gyakran ismételt kérdések | A kérdések, és a hozzájuk tartozó válaszok megjelennek. | Hibát nem találtam |
+| Menüpont tesztelés | 2023.12.13. | A kínálat oldalon a termékek kilistázása | A termékek adatainak lekérdezése az adatbázisból működik. | Hibát nem találtam |
+| Menüpont tesztelés | 2023.12.13. | Ügyfélszolgálat | A weboldal betölti a gombokat és input mezőket, a backend képes az adatfelvitelre, de az összekötés nincs meg, ezért az adatbázisba nem tudunk felvinni az adatot. | Hibát találtam |
+| Menüpont tesztelés | 2023.12.13. | Profil | A profil oldal megjeleníti az adatbázis adatait, a személyes adatok szerkesztése viszont nem működik | Hibát találtam |
+

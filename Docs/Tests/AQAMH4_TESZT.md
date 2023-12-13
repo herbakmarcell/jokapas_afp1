@@ -42,3 +42,17 @@ Az Alfa tesztben hibásan működő regisztráció és autentikáció prioritás
 A Béta teszt elkészült, a letesztelt funkciók többségében hibásan működtek a weboldalon, így sürgős javítás szükséges mind Front- és Backend-en. 
 
 A végleges tesztelésnél prioritást élvez a Béta teszt során még hibásnak titulált elemek, majd újra ellenőrzésre kerül az összes eddigi ellenőrzött funkció.
+
+## Végleges teszt
+
+| Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- |
+| Adatbázis | 2023.12.13. | Adatbázis működésének ellenőrzése. | A táblák és a weboldal sikeresen kapcsolódnak, az adatbázis adatok tárolására kész | Hibát nem találtam |
+| Bejelentkezés | 2023.12.13. | Belépés már létrehozott fiókkal | A fiókkal sikeresen be tudtam lépni a felületre | Hibát nem találtam |
+| Regisztráció | 2023.12.13. | Regisztrálás a weboldalra | Kért adatok megadása után sikeresen tudtam regisztrálni, és nem lehetett mégegyszer úgyanúgy regisztrálni | Hibát nem találtam |
+| Autentikáció | 2023.12.13. | Csak felhasználói fiók azonosítása után tudjuk a profilt megtekinteni | Bejelentkezve sikeresen műkődik, kijelentkezve nem lehetséges | Hibát nem találtam |
+| Navigációs sáv | 2023.12.13. | A menüpontokon kattintva az adott oldalra átirányít | A megfelelő oldalakra irányít át | Hibát nem találtam |
+| Menüpont tesztelés | 2023.12.13. | Gyakran ismételt kérdések | Megjelennek a kérdés-válasz párok | Hibát nem találtam |
+| Menüpont tesztelés | 2023.12.13. | A kínálat oldalon a termékek kilistázása | A termékeket adatait sikeresen lekérjük az adatbázisból | Hibát nem találtam |
+| Menüpont tesztelés | 2023.12.13. | Ügyfélszolgálat | A gombok és beviteli mezők megjelennek, backenden készen áll a adatfelvitel, de mivel nincs összekötve, adatot nem tudunk felvinni az adatbázisba | Hibát találtam |
+| Menüpont tesztelés | 2023.12.13. | Profil | A profil oldal megjelenik az adatbázisban szereplő adatokkal, személyes adatokat azonban nem lehet szerkeszteni | Hibát találtam |
