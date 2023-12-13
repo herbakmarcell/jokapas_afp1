@@ -57,7 +57,7 @@ A végleges tesztelésnél prioritást élvez a Béta teszt során még hibásna
 | Menüpont tesztelés | 2023.12.13. | A kínálat oldalon a termékek kilistázása | A termékeket adatait sikeresen lekérjük az adatbázisból | Hibát nem találtam |
 | Menüpont tesztelés | 2023.12.13. | Ügyfélszolgálat | A gombok és beviteli mezők megjelennek, backenden készen áll a adatfelvitel, de mivel nincs összekötve, adatot nem tudunk felvinni az adatbázisba | Hibát találtam |
 | Menüpont tesztelés | 2023.12.13. | Profil | A profil oldal megjelenik az adatbázisban szereplő adatokkal, személyes adatokat azonban nem lehet szerkeszteni | Hibát találtam |
-| Menüpont tesztelés | 2023.12.13. | Rendelések | A felhasználó rendeléseinek megjelenése | Megkaptuk a megrendelt termékek listáját | Hibát nem találtam |
+| Menüpont tesztelés | 2023.12.13. | Rendelések | A felhasználó rendeléseinek megjelenése és megkaptuk a megrendelt termékek listáját az adatbázisból | Hibát nem találtam |
 | Termék | 2023.12.13. | Egy darab termék megjelenítése | Az oldala a terméknek megjelenik minden adatával együtt | Hibát nem találtam |
 | Frontend | 2023.12.13. | A weboldal megjelenésének vizsgálata | A weboldal felépítése elfogadható, átlátható.| Hibát nem találtam |
 | Backend | 2023.12.13. | A backendben kódjainak működése | A backend kódjainak javarésze megfelelően működik. | Hibák részlegesen javítva |
