@@ -8,6 +8,7 @@ import { RegisterPage } from "../pages/Register/RegisterPage";
 import { CartPage } from "../pages/Cart/CartPage";
 import { AdminSuccess } from "../pages/Administration/AdminSuccess";
 import { SingleProduct } from "../pages/SingleProduct/SingleProduct";
+import { SingleOrder } from "../pages/SingleOrder/SingleOrder";
 import { OrdersPage } from "../pages/Orders/OrdersPage";
 
 export const publicRoutes = [
@@ -18,6 +19,7 @@ export const publicRoutes = [
     {path: "/", page: HomePage},
     {path: "register", page: RegisterPage},
     {path: "product/:id", page:SingleProduct},
+    {path: "order/:id", page:SingleOrder},
 
 ]
 
