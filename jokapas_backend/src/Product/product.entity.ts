@@ -10,6 +10,8 @@ export class Product{
     @Column()
     user_id: number;
     @Column()
+    seller_name: string;
+    @Column()
     tag: string;
     @Column()
     price: number;
